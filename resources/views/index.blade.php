@@ -53,10 +53,10 @@
             <a class="nav-link js-scroll" href="#socials">socials</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="./blog.html">Blog</a>
+            <a class="nav-link js-scroll" href="./blog">Blog</a>
           </li>
          <li>
-          <a class="buy-tickets scrollto" href="/client.html">Be My Client</a>
+          <a class="buy-tickets scrollto" href="/client">Be My Client</a>
          </li>
         </ul>
       </div>
@@ -181,7 +181,7 @@
             <div class="service-content">
               <h2 class="s-title">Data-Management</h2>
               <p class="s-description text-center">
-                I'm responsible for overseeing the acquisition, organization, maintenance, and utilization of data within an organization. 
+                I'm responsible for overseeing the acquisition, organization, maintenance, and utilization of data within an organization.
                 My primary role revolves around ensuring that data is accurate, secure, accessible, and used effectively to support the organization's objectives.
               </p>
             </div>
@@ -208,7 +208,7 @@
             <div class="service-content">
               <h2 class="s-title">Graphic Design</h2>
               <p class="s-description text-center">
-                I create visual concepts, using computer software or by hand, to communicate ideas that inspire, inform, and captivate consumers. 
+                I create visual concepts, using computer software or by hand, to communicate ideas that inspire, inform, and captivate consumers.
                 I develop the overall layout and production design for applications such as advertisements, brochures, magazines, and reports.
               </p>
             </div>
@@ -446,7 +446,7 @@
             </a>
           </div>
         </div>
-        
+
       </div>
     </div>
   </section>
@@ -512,7 +512,7 @@
                   <div class="more-info">
                     <p class="lead">
                       Welcome to my "Get in Touch" section! I'm excited to hear from you.
-                      I welcome inquiries, feedback, collaboration opportunities, or any other communication. Whether you have a 
+                      I welcome inquiries, feedback, collaboration opportunities, or any other communication. Whether you have a
                       question, suggestion, or just want to say hello, I'd love to hear from you!
                       Available for contact Monday through Friday, from 8:00 AM to 7:00 PM (GMT).
                     </p>
@@ -529,19 +529,19 @@
                         <li> <a href="#"><i class="fa fa-github-alt"></i></a></li>
                         <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
                         <li> <a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li> <a href="#"><i class="fa fa-stack-exchange"></i></a></li> 
+                        <li> <a href="#"><i class="fa fa-stack-exchange"></i></a></li>
                         <li> <a href="#"><i class="fa fa-linkedin-square"></i></a></li>
                       </ul>
-                      
+
                     <!-- <div class="soc">
                       <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
                     <ul class="socialz">
-                     
+
                       <li id="f"><i class="fa fa-facebook"></i></li>
                       <li><i class="fa fa-google"></i></li>
                       <li id="t"><i class="fa fa-twitter"></i></li>
                       <li><i class="fa fa-youtube"></i></li>
-                        </ul> 
+                        </ul>
                     </div> -->
                   </div>
                 </div>
@@ -558,7 +558,7 @@
             <div class="copyright-box">
               <p class="copyright">&copy; Copyright <strong>Juma.com</strong>. All Rights Reserved</p>
               <div class="credits">
-               
+
                 Designed by <a href="/">Juma</a>
               </div>
             </div>
@@ -593,17 +593,17 @@
   document.addEventListener('DOMContentLoaded', function() {
   const socialsButton = document.querySelector('nav a[href="#socials"]');
   const socialsSection = document.getElementById('socials');
-  
+
   socialsButton.addEventListener('click', function(event) {
     event.preventDefault(); // Prevent default link behavior
-    
+
     // Scroll to the socials section
     socialsSection.scrollIntoView({ behavior: 'smooth' });
-    
+
     // Highlight the socials section border three times
     highlightBorder(socialsSection, 40);
   });
-  
+
   // Function to highlight the border of an element a specified number of times
   function highlightBorder(element, count) {
     let iterations = 0;
