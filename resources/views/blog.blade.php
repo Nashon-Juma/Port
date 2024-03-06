@@ -67,7 +67,7 @@
           <h2 class="intro-title mb-4" id="page-top">Blog Details</h2>
           <ol class="breadcrumb d-flex justify-content-center">
             <li class="breadcrumb-item">
-              <a href="/">Home</a>
+              <a href="/"> Home </a>
             </li>
             <li class="breadcrumb-item">
               <a href="#">Library</a>
