@@ -91,7 +91,7 @@
 		<div class="container topu-padding">
 			<div class="row">
 				<div class="col-md-5 col-md-offset-1">
-					<div class="scoopy"><img src="img/maini.jpg" alt=""></div>
+					<div class="scoopy"><img src="img/maini.png" alt=""></div>
 				</div>
 
 				<div class="col-md-5">
@@ -233,7 +233,7 @@
   </section>
   <!--/ Section Services End /-->
 
-  <div class="section-counter paralax-mf bg-image" style="background-image: url(img/counters-bg.jpg)">
+  <div class="section-counter paralax-mf bg-image" style="background-image: url(img/counters.jpg)">
     <div class="overlay-mf"></div>
     <div class="container">
       <div class="row">
@@ -453,7 +453,7 @@
   <!--/ Section Portfolio End /-->
 
   <!--/ Section Contact-Footer Star /-->
-  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
+  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.png)">
     <div class="overlay-mf"></div>
     <div class="container">
       <div class="row">

@@ -45,13 +45,13 @@
       <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link js-scroll"  href="index.html">Home</a>
+            <a class="nav-link js-scroll"  href="/">Home</a>
           </li>
-          
+
           <li class="nav-item">
             <a class="nav-link js-scroll" href="#">Blog</a>
           </li>
-          
+
         </ul>
       </div>
     </div>
@@ -59,7 +59,7 @@
   <!--/ Nav End /-->
 
   <!--/ Intro Skew Star /-->
-  <div class="intro intro-single route bg-image" style="background-image: url(img/overlay-bg.jpg)">
+  <div class="intro intro-single route bg-image" style="background-image: url(img/overlay-bg.png)">
     <div class="overlay-mf"></div>
     <div class="intro-content display-table">
       <div class="table-cell">
@@ -67,7 +67,7 @@
           <h2 class="intro-title mb-4" id="page-top">Blog Details</h2>
           <ol class="breadcrumb d-flex justify-content-center">
             <li class="breadcrumb-item">
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </li>
             <li class="breadcrumb-item">
               <a href="#">Library</a>
@@ -108,24 +108,24 @@
             </div>
             <div class="article-content">
               <p>
-                As a web developer, my role is multifaceted and dynamic, encompassing a wide range of tasks and responsibilities 
-                in the realm of website development. My primary objective is to create functional, 
+                As a web developer, my role is multifaceted and dynamic, encompassing a wide range of tasks and responsibilities
+                in the realm of website development. My primary objective is to create functional,
                 user-friendly, and visually appealing websites that meet the needs and goals of my clients or employers.
               </p>
               <p>
-                To achieve this, I engage in various stages of the website development process, starting from the initial 
+                To achieve this, I engage in various stages of the website development process, starting from the initial
                 planning and conceptualization phase. During this phase, I collaborate with stakeholders to understand their
-                 requirements, goals, and target audience. I delve into discussions about the website's purpose, features, 
+                 requirements, goals, and target audience. I delve into discussions about the website's purpose, features,
                  functionality, and design preferences to ensure a clear understanding of the project scope.
               </p>
               <p>
-                Once the project scope is defined, I move on to the design phase, where I translate conceptual ideas into 
-                tangible visual mockups or wireframes. Using tools like Adobe Photoshop, Sketch, or Figma, I create design 
+                Once the project scope is defined, I move on to the design phase, where I translate conceptual ideas into
+                tangible visual mockups or wireframes. Using tools like Adobe Photoshop, Sketch, or Figma, I create design
                 prototypes that capture the desired look and feel of the website, including layout, color schemes, typography,
                 and imagery. I pay close attention to user experience (UX) principles, ensuring intuitive navigation and seamless interaction across different devices and screen sizes.
               </p>
               <p>
-                Throughout the development process, I adhere to best practices and coding standards, ensuring code quality, 
+                Throughout the development process, I adhere to best practices and coding standards, ensuring code quality,
                 scalability, security, and maintainability. I conduct thorough testing to identify and resolve any bugs or issues,
                  performing cross-browser compatibility testing and responsive design testing to ensure optimal performance across
                   different browsers and devices.
@@ -133,7 +133,7 @@
               <blockquote class="blockquote">
                 <p class="mb-0">My main aim is to make my clients HAPPY.</p>
               </blockquote>
-              
+
             </div>
           </div>
           <div class="box-comments">
@@ -149,8 +149,8 @@
                   <h4 class="comment-author">Nashon Juma</h4>
                   <span>18 Sep 2022</span>
                   <p>
-                    "Wow, I am absolutely thrilled with the website you created for us! It's everything we envisioned and more. 
-                    Thank you for your hard work and dedication to making our vision a reality. We couldn't be happier with 
+                    "Wow, I am absolutely thrilled with the website you created for us! It's everything we envisioned and more.
+                    Thank you for your hard work and dedication to making our vision a reality. We couldn't be happier with
                     the results!"
                   </p>
                   <a href="3">Reply</a>
@@ -165,7 +165,7 @@
                   <span>18 Oct 2022</span>
                   <p>
                     "I just wanted to express how delighted I am with the website you built for my business. It's sleek, modern,
-                     and user-friendly – exactly what I was hoping for. Your attention to detail and responsiveness throughout 
+                     and user-friendly – exactly what I was hoping for. Your attention to detail and responsiveness throughout
                      the process were truly exceptional. Thank you for exceeding my expectations!"
                   </p>
                   <a href="3">Reply</a>
@@ -179,7 +179,7 @@
                   <h4 class="comment-author">Nashon Juma</h4>
                   <span>14 Jan 2023</span>
                   <p>
-                    It's always a plesure to serve customers to there fulfillment. 
+                    It's always a plesure to serve customers to there fulfillment.
                   </p>
                   <a href="3">Reply</a>
                 </div>
@@ -193,8 +193,8 @@
                   <span>2 mar 2023</span>
                   <p>
                     "From the initial consultation to the final launch, your expertise and professionalism have been outstanding.
-                     The website you created for us is a game-changer – it's not only visually striking but also highly 
-                     functional and easy to navigate. Our team is thrilled with the end result, and we've received so many 
+                     The website you created for us is a game-changer – it's not only visually striking but also highly
+                     functional and easy to navigate. Our team is thrilled with the end result, and we've received so many
                      compliments from our customers. Thank you for making our vision come to life!"
                   </p>
                   <a href="3">Reply</a>
