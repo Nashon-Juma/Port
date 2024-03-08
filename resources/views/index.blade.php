@@ -97,7 +97,7 @@
 				<div class="col-md-5">
 					<div class="description">
 						<div class="pypy">About Me</div>
-						<p>Highly skilled and experienced web developer with a specialization in interfacing and integrating microcontrollers,
+						<p>I'm highly skilled and experienced in web development with specialization in interfacing and integrating microcontrollers,
                             especially those compatible with automotive systems. I'm edept at creating seamless connections between web applications
                              and hardware, leveraging expertise in both software and hardware development to deliver innovative solutions.
 
