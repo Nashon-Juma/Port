@@ -59,7 +59,7 @@
   <!--/ Nav End /-->
 
   <!--/ Intro Skew Star /-->
-  <div class="intro intro-single route bg-image" style="background-image: url(img/overlay-bg.png)">
+  <div class="intro intro-single route bg-image" style="background-image: url(img/overlay.png)">
     <div class="overlay-mf"></div>
     <div class="intro-content display-table">
       <div class="table-cell">
