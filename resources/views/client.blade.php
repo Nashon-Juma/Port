@@ -7,7 +7,7 @@
     <!-- Main Stylesheet File -->
   <link rel="stylesheet" href="css/client.css">
   <link rel="stylesheet" href="css/style.css">
-  
+
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
@@ -29,11 +29,11 @@
 
 </head>
 <body>
-  
+
   <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll" href="#page-top">Juma.com</a>
-     
+      <a class="navbar-brand js-scroll" href="https://techmates.team">Techmates.team</a>
+
       <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
         <ul class="navbar-nav">
           <li class="nav-item">
@@ -52,17 +52,19 @@
     <div class="main-flex-w3ls-sectns">
       <div class="field-agileinfo-spc form-w3-agile-text1">
         <select class="form-control">
-          <option>From</option>
-          <option value="Lorem Ipsum">Lorem Ipsum</option>
-          <option value="Adipiscing">Adipiscing</option>
-          <option value="Lorem Ipsum">Lorem Ipsum</option>
-          <option value="Adipiscing">Adipiscing</option>
-          <option value="Lorem Ipsum">Lorem Ipsum</option>
-          <option value="Adipiscing">Adipiscing</option>
+          <option>Industry Type</option>
+          <option value="Adipiscing">Healthcare</option>
+          <option value="Lorem Ipsum">Automotive</option>
+          <option value="Adipiscing">Manufacturing</option>
+          <option value="Adipiscing">Education</option>
+          <option value="Lorem Ipsum">Finance and Banking</option>
+          <option value="Adipiscing">Retail and E-commerce</option>
+          <option value="Lorem Ipsum">Entertainment and Media</option>
+          <option value="Adipiscing">Aerospace and Aviation</option>
         </select>
       </div>
-      <div class="field-agileinfo-spc form-w3-agile-text2">
-        <select class="form-control">
+      <div class="field-agileinfo-spc form-w3-agile-text2">Thank You
+        {{-- <select class="form-control">
           <option>To</option>
           <option value="Lorem Ipsum">Lorem Ipsum</option>
           <option value="Adipiscing">Adipiscing</option>
@@ -70,13 +72,13 @@
           <option value="Adipiscing">Adipiscing</option>
           <option value="Lorem Ipsum">Lorem Ipsum</option>
           <option value="Adipiscing">Adipiscing</option>
-        </select>
+        </select> --}}
       </div>
     </div>
     <div class="main-flex-w3ls-sectns">
       <div class="field-agileinfo-spc form-w3-agile-text1">
         <select class="form-control">
-          <option>Preferred Airline</option>
+          <option>Preferred Service</option>
           <option value="American Airline">American Airline</option>
           <option value="Delta Airlines">Delta Airlines</option>
           <option value="Frontier Airline">Frontier Airline</option>
@@ -86,10 +88,11 @@
       </div>
       <div class="field-agileinfo-spc form-w3-agile-text2">
         <select class="form-control">
-          <option>Preferred Seating</option>
+          <option>System Type</option>
           <option value="Window">Window</option>
-          <option value="Aisle">Aisle</option>
-          <option value="Special">Special (Request note below)</option>
+          <option value="Aisle">Apple</option>
+          <option value="Special">linux</option>
+          <option value="all">All</option>
         </select>
       </div>
     </div>
@@ -99,7 +102,7 @@
           id="datepicker"
           name="Text"
           type="text"
-          placeholder="Departure Date"
+          placeholder="Preffered Date Of Completion"
           value=""
           onfocus="this.value = '';"
           onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}"
@@ -108,7 +111,7 @@
         />
       </div>
       <div class="field-agileinfo-spc form-w3-agile-text2">
-        <input
+        {{-- <input
           type="text"
           id="timepicker"
           name="Time"
@@ -116,7 +119,7 @@
           placeholder="Departure Time"
           value=""
           onkeypress="return false;"
-        />
+        /> --}}
       </div>
     </div>
 
@@ -153,20 +156,27 @@
       </div>
     </div>
     <div class="radio-section">
-      <h6>Select your Fare</h6>
+      <h6>Select your Choice</h6>
       <ul class="radio-buttons-w3-agileits">
         <li>
           <input type="radio" id="a-option" name="selector1" />
-          <label for="a-option">One Way</label>
+          <label for="a-option">Develop & Maintainance</label>
           <div class="check"></div>
         </li>
         <li>
           <input type="radio" id="b-option" name="selector1" />
-          <label for="b-option">Round-Trip</label>
+          <label for="b-option">Develop Only</label>
           <div class="check">
             <div class="inside"></div>
           </div>
         </li>
+        <li>
+            <input type="radio" id="b-option" name="selector1" />
+            <label for="c-option">To be Discussed</label>
+            <div class="check">
+              <div class="inside"></div>
+            </div>
+          </li>
       </ul>
       <div class="clear"></div>
     </div>

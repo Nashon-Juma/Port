@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Juma.com</title>
+  <title>Nashonjuma.com</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -31,7 +31,7 @@
   <!--/ Nav Star /-->
   <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll" href="#page-top">Juma.com</a>
+      <a class="navbar-brand js-scroll" href="https://techmates.team">Techmates.team</a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
         aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
@@ -97,13 +97,13 @@
 				<div class="col-md-5">
 					<div class="description">
 						<div class="pypy">About Me</div>
-
-						<p>I've been designing and building websites since 2012. In my years of experience I learned a lot of things about good practices in coding, UX / UI, PHP Wordpress, basic javascript algorithms and the importance of content in web design.</p>
+						<p>Highly skilled and experienced web developer with a specialization in interfacing and integrating microcontrollers,
+                            especially those compatible with automotive systems. I'm edept at creating seamless connections between web applications
+                             and hardware, leveraging expertise in both software and hardware development to deliver innovative solutions.
 
 						<p class="sk"><strong>SKILLS:</strong></p>
-
 						<div class="skills">
-							<img src="https://himigatliwanag.files.wordpress.com/2016/01/html5.png" alt="HTML5">
+							{{-- <img src="https://himigatliwanag.files.wordpress.com/2016/01/html5.png" alt="HTML5"> --}}
 							<img src="https://himigatliwanag.files.wordpress.com/2016/01/css3.png" alt="CSS3">
 							<img src="https://himigatliwanag.files.wordpress.com/2016/01/javascript.png" alt="Javascript">
 							<img src="https://himigatliwanag.files.wordpress.com/2016/01/wordpress.png" alt="Wordpress">
@@ -113,9 +113,11 @@
 
 						<p class="sk"><strong>EXPERIENCE:</strong></p>
 
-						<p>2011 - 2012, Asecasia Inc. - Graphic Artist<br>
-						2012 - 2015, AGR Operations Manila - Web Developer<br>
-						Present: Front-End Developer</p>
+						<p>Present=>  <span style="color: rgb(190, 248, 248)">DevOps Engineer</span>,<br>
+						2023 Oct- 2024, TechMates =>  <span style="color: rgb(190, 248, 248)">Web Developer</span>,<br>
+                        2022 Apr- 2023 Aug, Elimu Hub =>  <span style="color: rgb(190, 248, 248)">Front-End Tutor</span>,<br>
+                        2021 Feb-2022 Mar, CornerStone Garage =>  <span style="color: rgb(190, 248, 248)">Auto-Electrician</span>,<br>
+						</p>
 					</div>
 				</div>
 			</div>
@@ -254,7 +256,7 @@
               <span class="ico-circle"><i class="ion-ios-calendar-outline"></i></span>
             </div>
             <div class="counter-num">
-              <p class="counter">2</p>
+              <p class="counter">3</p>
               <span class="counter-text">YEARS OF EXPERIENCE</span>
             </div>
           </div>
@@ -359,7 +361,7 @@
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-8">
-                    <h2 class="w-title">Mavrito Lana</h2>
+                    <h2 class="w-title">Lana Shop</h2>
                     <div class="w-more">
                       <span class="w-ctegory">Data-Management</span> / <span class="w-date">18 Aug. 2023</span>
                     </div>
@@ -383,7 +385,7 @@
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-8">
-                    <h2 class="w-title">Bindo </h2>
+                    <h2 class="w-title">Kyalo Hangout</h2>
                     <div class="w-more">
                       <span class="w-ctegory">Search Engine Opti</span> / <span class="w-date">10 Oct. 2018</span>
                     </div>
@@ -407,7 +409,7 @@
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-8">
-                    <h2 class="w-title">Lena Hospital</h2>
+                    <h2 class="w-title">Lena Fitness</h2>
                     <div class="w-more">
                       <span class="w-ctegory">Responsive Design</span> / <span class="w-date">8 Nov. 2023</span>
                     </div>
@@ -431,7 +433,7 @@
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-8">
-                    <h2 class="w-title">Studio Big Bang</h2>
+                    <h2 class="w-title">Bindo Supermarket</h2>
                     <div class="w-more">
                       <span class="w-ctegory">Web Graphics</span> / <span class="w-date">18 Sep. 2017</span>
                     </div>
@@ -525,12 +527,12 @@
                   <div id="socials" class="socials">
                     <div class='bood'>
                       <ul class="social-icons icon-circle icon-zoom icon-rotate list-unstyled list-inline">
-                        <li> <a href="#"><i class="fa fa-github"></i></a>
-                        <li> <a href="#"><i class="fa fa-github-alt"></i></a></li>
-                        <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li> <a href="https://github.com/Nashon-Juma"><i class="fa fa-github"></i></a>
+                        <li> <a href="https://github.com/Nashon-Juma?tab=repositories"><i class="fa fa-github-alt"></i></a></li>
+                        <li> <a href="https://twitter.com/shonjuma"><i class="fa fa-twitter"></i></a></li>
                         <li> <a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li> <a href="#"><i class="fa fa-stack-exchange"></i></a></li>
-                        <li> <a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                        <li> <a href="https://meta.stackexchange.com/users/1478947/nashon"><i class="fa fa-stack-exchange"></i></a></li>
+                        <li> <a href="https://www.linkedin.com/in/nashon-juma/"><i class="fa fa-linkedin-square"></i></a></li>
                       </ul>
 
                     <!-- <div class="soc">
@@ -556,9 +558,8 @@
         <div class="row">
           <div class="col-sm-12">
             <div class="copyright-box">
-              <p class="copyright">&copy; Copyright <strong>Juma.com</strong>. All Rights Reserved</p>
+              <p class="copyright">&copy; Copyright <strong>Nashonjuma.com</strong>. All Rights Reserved</p>
               <div class="credits">
-
                 Designed by <a href="/">Juma</a>
               </div>
             </div>
