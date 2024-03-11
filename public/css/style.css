@@ -411,7 +411,7 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  background: rgb(0, 187, 187);
+  background: rgba(16, 160, 160, 0.973);
   color: #fff;
   width: 44px;
   height: 44px;

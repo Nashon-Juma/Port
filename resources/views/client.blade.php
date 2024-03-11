@@ -123,38 +123,6 @@
       </div>
     </div>
 
-    <div class="triple-wthree">
-      <div class="field-agileinfo-spc form-w3-agile-text11">
-        <select class="form-control">
-          <option value="">Adult(12+ Yrs)</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5+</option>
-        </select>
-      </div>
-      <div class="field-agileinfo-spc form-w3-agile-text22">
-        <select class="form-control">
-          <option value="">Children(2-11 Yrs)</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5+</option>
-        </select>
-      </div>
-      <div class="field-agileinfo-spc form-w3-agile-text33">
-        <select class="form-control">
-          <option value="">Infant(under 2Yrs)</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5+</option>
-        </select>
-      </div>
-    </div>
     <div class="radio-section">
       <h6>Select your Choice</h6>
       <ul class="radio-buttons-w3-agileits">
@@ -186,24 +154,16 @@
           id="datepicker1"
           name="Text"
           type="text"
-          placeholder="Return Date"
+          placeholder="Do you want a one-to-one meeting  pride a date...(Optional)"
           value=""
           onfocus="this.value = '';"
-          onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}"
+          onblur="if (this.value == '') {this.value = 'dd/mm/yyyy';}"
           required=""
           class="hasDatepicker"
         />
       </div>
       <div class="field-agileinfo-spc form-w3-agile-text2">
-        <input
-          type="text"
-          id="timepicker1"
-          name="Time"
-          class="timepicker form-control hasWickedpicker"
-          placeholder="Return Time"
-          value=""
-          onkeypress="return false;"
-        />
+
       </div>
     </div>
     <div class="field-agileinfo-spc form-w3-agile-text">

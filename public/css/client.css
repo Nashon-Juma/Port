@@ -1,13 +1,18 @@
-body{
-    margin: 0%;
-    background-color: #000000c0;
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #000000;
+    padding: 0;
+    overflow: hidden;
 }
+
 .contaz {
+    height: 100%;
+    margin: 0;
     font-family: "Roboto", sans-serif;
     font-size: 100%;
-    background-color: #111010e0;
-    /* background: url(https://images.unsplash.com/photo-1706497897576-70e4c88460c9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4MHx8fGVufDB8fHx8fA%3D%3D); 
-      repeat center top; */
+    background-color: #000000f6;
     background-size: cover repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
