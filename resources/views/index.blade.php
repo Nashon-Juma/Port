@@ -5,7 +5,7 @@
   <title>Nashonjuma.com</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
-  <meta content="" name="description">
+  <meta name="keywords" content="nashon juma , nashon ,juma ,web developer kenya,web-developer, portfolio, portfolio kenya, devops,devops kenya,sales funnel optimization,brand positioning,messaging development,user experience (ux) consulting,process automation,user testing,personas,data-driven design,design thinking workshops,user interface (ui) design,interaction design,graphic design,animation,wordpress development,drupal development,laravel development,platform migration,data migration,ecommerce development,website maintenance,website hosting,api integration,crm integration,lead generation,lead nurturing,media management,digital marketing campaigns,crm management">
 
   <!-- Favicons -->
   <link href="img/favicon.png" rel="icon">
@@ -31,7 +31,7 @@
   <!--/ Nav Star /-->
   <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll" href="https://techmates.team">Techmates.team</a>
+      <a class="navbar-brand js-scroll" href="https://techmates.team"> Techmates.team </a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
         aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
@@ -70,7 +70,7 @@
     <div class="intro-content display-table">
       <div class="table-cell">
         <div class="container">
-          <h1 class="intro-title mb-4">I am Nashon Juma</h1>
+          <h1 class="intro-title mb-4">I'm Nashon Juma</h1>
           <p class="intro-subtitle"><span class="text-slider-items">Web Developer,Web Designer,Front-End Developer,Back-End Developer</span><strong class="text-slider"></strong></p>
           <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
           <div class="xx">
