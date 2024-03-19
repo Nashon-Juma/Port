@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Nashonjuma.com</title>
+  <title>Juma</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta name="keywords" content="nashon juma , nashon ,juma ,web developer kenya,web-developer, portfolio, portfolio kenya, devops,devops kenya,sales funnel optimization,brand positioning,messaging development,user experience (ux) consulting,process automation,user testing,personas,data-driven design,design thinking workshops,user interface (ui) design,interaction design,graphic design,animation,wordpress development,drupal development,laravel development,platform migration,data migration,ecommerce development,website maintenance,website hosting,api integration,crm integration,lead generation,lead nurturing,media management,digital marketing campaigns,crm management">
