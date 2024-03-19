@@ -13,7 +13,6 @@
                                 <h3 class="sec-title title-right">Juma</h3>
                             </div>
 
-
                             <div class="img-round">
                                 <img src="images/23.png" alt="shape">
                             </div>
