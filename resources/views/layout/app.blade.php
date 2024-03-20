@@ -109,7 +109,7 @@
                 <a href="/" class="logo-dark">
                     <img src="images/logo-black.png" alt="Site Logo">
                 </a>
-                <a href="https://techmates.team" class="logo-light">{{-- NJ logo --}}
+                <a href="https://techmates.team"  target="_blank" class="logo-light">{{-- NJ logo --}}
                     <img src="images/site-logo-white-2.png" alt="Logo">
                 </a>
             </div>
