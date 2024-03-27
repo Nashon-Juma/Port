@@ -23,7 +23,7 @@
     <meta name="twitter:card" content="summary">
 
 
-    <title>{{ config('app.name') }}</title>
+    <title>NashonJuma</title>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
