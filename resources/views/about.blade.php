@@ -18,11 +18,7 @@
                                     </div>
                                 </div>
                                 <div class="hero__about-text title-anim">
-                                    <p>With a fusion of imaginative flair and strategic thinking, we
-                                        strive to ignite substantial change and foster sustainable
-                                        growth. Our consultative methodology for addressing your digital
-                                        obstacles is reinforced by our commitment to involving you in
-                                        every step of our collaborative journey.
+                                    <p>TechMates, a dynamic company specializing in web development and digital marketing, emerged onto the scene just two years ago with a vision to revolutionize the online landscape. Founded by a group of passionate entrepreneurs with diverse backgrounds in technology and marketing, TechMates quickly gained recognition for its innovative approach and commitment to excellence. With a team of talented developers and digital marketers, the company embarked on a mission to help businesses thrive in the digital age by creating stunning websites and implementing cutting-edge digital marketing strategies. In just a short span of time, TechMates has become a trusted partner for businesses seeking to establish a strong online presence and drive growth through digital channels. Their portfolio boasts a diverse range of successful projects, from sleek and responsive websites that captivate audiences to strategic marketing campaigns that deliver measurable results. As TechMates continues to grow and expand its reach, it remains dedicated to its core values of creativity, collaboration, and customer satisfaction, poised to lead the way in the ever-evolving world of web development and digital marketing.
                                     </p>
                                 </div>
                                 <div class="hero__about-award img-round">
@@ -56,12 +52,11 @@
                         </div>
                         <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
                             <div class="story__text">
-                                <p>Nestled in the picturesque mountains of India lies a dynamic IT
-                                    development company with a passion for creating stunning digital
-                                    experiences. Since 2014, this team of expert designers and
-                                    developers have been crafting beautiful user interfaces and user
-                                    experiences, developing powerful mobile applications, and building
-                                    robust back-end systems. </p>
+                                <p>My name is Nashon I've always been passionate about tinkering with machines and technology. From a young age, I've spent countless hours in different workshops, learning the ins and outs of mechanics, fixing engines, and building gadgets from spare parts. I loved the smell of grease, the sound of tools clinking, and the satisfaction of bringing something broken back to life. As I grew older, my curiosity for technology expanded beyond the realm of mechanics. I became fascinated with computers, programming, and the endless possibilities of the digital world. Despite my love for tinkering with engines, I decided to pursue a career in web development, drawn by the allure of code and the promise of innovation in the tech industry.
+
+After years of hard work and dedication, I became a skilled web developer, crafting beautiful and functional websites that captured the imagination of users around the world. I,ve thrived in the fast-paced environment of the tech industry, constantly learning new languages, frameworks, and tools to stay ahead of the curve. But I,ve never forgot my roots as a mechanic. I cherished the memories of working in the workshop , and I often find myself longing for the smell of oil and the feel of metal beneath my fingertips. Determined to merge my two passions, I began exploring the world of embedded systems – the intersection of hardware and software where my skills as a mechanic and web developer could converge.
+
+With my background in mechanics and my expertise in web development, I quickly excelled in the field of embedded systems. I,ve designed innovative devices that combined cutting-edge technology with old-fashioned craftsmanship, creating machines that are both functional and beautiful. Whether I,m building a custom IoT device or optimizing the performance of a microcontroller, I approached each project with the same passion and precision I learnt in the workshop. Today, I enjoy a fulfilling career as both a web developer and an embedded systems engineer. I revel in the opportunity to combine my love for mechanics with my passion for technology, finding joy and satisfaction in every project I undertake. And though I may have started as a mechanic, I know that my journey is far from over – there are always new machines to build, new problems to solve, and new adventures waiting just around the corner.  </p>
                                 <p> Driven by a motto of "It is not the mountain we conquer but
                                     ourselves," this company is dedicated to pushing the boundaries of
                                     what's possible and delivering unparalleled customer satisfaction
