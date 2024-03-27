@@ -57,10 +57,7 @@
 After years of hard work and dedication, I became a skilled web developer, crafting beautiful and functional websites that captured the imagination of users around the world. I,ve thrived in the fast-paced environment of the tech industry, constantly learning new languages, frameworks, and tools to stay ahead of the curve. But I,ve never forgot my roots as a mechanic. I cherished the memories of working in the workshop , and I often find myself longing for the smell of oil and the feel of metal beneath my fingertips. Determined to merge my two passions, I began exploring the world of embedded systems – the intersection of hardware and software where my skills as a mechanic and web developer could converge.
 
 With my background in mechanics and my expertise in web development, I quickly excelled in the field of embedded systems. I,ve designed innovative devices that combined cutting-edge technology with old-fashioned craftsmanship, creating machines that are both functional and beautiful. Whether I,m building a custom IoT device or optimizing the performance of a microcontroller, I approached each project with the same passion and precision I learnt in the workshop. Today, I enjoy a fulfilling career as both a web developer and an embedded systems engineer. I revel in the opportunity to combine my love for mechanics with my passion for technology, finding joy and satisfaction in every project I undertake. And though I may have started as a mechanic, I know that my journey is far from over – there are always new machines to build, new problems to solve, and new adventures waiting just around the corner.  </p>
-                                <p> Driven by a motto of "It is not the mountain we conquer but
-                                    ourselves," this company is dedicated to pushing the boundaries of
-                                    what's possible and delivering unparalleled customer satisfaction
-                                    through the highest quality work. </p>
+                               
                             </div>
                         </div>
                     </div>
