@@ -1,0 +1,41 @@
+created:
+    - database/factories/UserFactory.php
+    - database/factories/ProfileFactory.php
+    - database/factories/ProjectFactory.php
+    - database/factories/SkillsFactory.php
+    - database/factories/EducationFactory.php
+    - database/factories/WorkFactory.php
+    - database/factories/ContactFactory.php
+    - database/factories/ServiceFactory.php
+    - database/factories/AboutFactory.php
+    - database/migrations/2024_04_29_161712_create_users_table.php
+    - database/migrations/2024_04_29_161713_create_profiles_table.php
+    - database/migrations/2024_04_29_161714_create_projects_table.php
+    - database/migrations/2024_04_29_161715_create_skills_table.php
+    - database/migrations/2024_04_29_161716_create_education_table.php
+    - database/migrations/2024_04_29_161717_create_works_table.php
+    - database/migrations/2024_04_29_161718_create_contacts_table.php
+    - database/migrations/2024_04_29_161719_create_services_table.php
+    - database/migrations/2024_04_29_161720_create_abouts_table.php
+    - app/Models/User.php
+    - app/Models/Profile.php
+    - app/Models/Project.php
+    - app/Models/Skills.php
+    - app/Models/Education.php
+    - app/Models/Work.php
+    - app/Models/Contact.php
+    - app/Models/Service.php
+    - app/Models/About.php
+models:
+    User: { name: string, email: 'string unique', image: string, password: string, remember_token: 'string nullable', info: string, about: string, description: string, relationships: { hasMany: 'Profile,Project,Skills,Education,Work,Contact,Service,About,', belongsTo: \Spatie\LaravelPermission\Models\Role } }
+    Profiles: { bio: 'text nullable', website: 'string nullable', avatar: 'string nullable' }
+    Projects: { title: string, description: 'text nullable', url: 'string nullable', image: 'string nullable' }
+    Skills: { name: string, level: 'enum(low, medium, high) nullable' }
+    Education: { institution: string, degree: string, field_of_study: string, start_date: date, end_date: 'date nullable' }
+    Work: { company: string, position: string, description: 'text nullable', start_date: date, end_date: 'date nullable' }
+    Contact: { email: string, phone: 'string nullable', address: 'string nullable', city: 'string nullable', state: 'string nullable', country: 'string nullable', postal_code: 'string nullable' }
+    Services: { title: string, description: 'text nullable', image_1: string, image_2: string, image_3: string, image_4: string, image_5: string, image_6: string }
+    About: { user_id: 'integer index', content: 'text nullable', image_1: string, image_2: string, image_3: string, image_4: string, image_5: string, image_6: string }
+    Profile: { bio: 'text nullable', website: 'string nullable', avatar: 'string nullable' }
+    Project: { title: string, description: 'text nullable', url: 'string nullable', image: 'string nullable' }
+    Service: { title: string, description: 'text nullable', image_1: string, image_2: string, image_3: string, image_4: string, image_5: string, image_6: string }

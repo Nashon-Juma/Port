@@ -1,0 +1,74 @@
+models:
+  User:
+      name: string
+      email: string unique
+      image: string
+      password: string
+      remember_token: string nullable
+      info: string
+      about: string
+      description: string
+      relationships:
+        hasMany: Profile,Project,Skills,Education,Work,Contact,Service,About,
+        belongsTo: \Spatie\LaravelPermission\Models\Role
+
+  Profile:
+      bio: text nullable
+      website: string nullable
+      avatar: string nullable
+
+  Project:
+      title: string
+      description: text nullable
+      url: string nullable
+      image: string nullable
+
+  Skills:
+      name: string
+      level: enum(low, medium, high) nullable
+
+  Education:
+      institution: string
+      degree: string
+      field_of_study: string
+      start_date: date
+      end_date: date nullable
+
+  Work:
+      company: string
+      position: string
+      description: text nullable
+      start_date: date
+      end_date: date nullable
+
+  Contact:
+      email: string
+      phone: string nullable
+      address: string nullable
+      city: string nullable
+      state: string nullable
+      country: string nullable
+      postal_code: string nullable
+
+  Service:
+      title: string
+      description: text nullable
+      image_1: string
+      image_2: string
+      image_3: string
+      image_4: string
+      image_5: string
+      image_6: string
+
+  About:
+      user_id: integer index
+      content: text nullable
+      image_1: string
+      image_2: string
+      image_3: string
+      image_4: string
+      image_5: string
+      image_6: string
+
+
+# controllers:
