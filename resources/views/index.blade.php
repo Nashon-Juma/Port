@@ -10,7 +10,7 @@
                             <div style="font-family: 'Cabin Sketch'"class="sec-title-wrapper">
                                 <h2 class="sec-sub-title">Hello I'm</h2>
                                 <h3 class="sec-title title-left">Nashon</h3>
-                                <h3 class="sec-title title-right">Juma</h3>
+                                <h3 class="sec-title title-right">Jum</h3>
                             </div>
 
                             <div class="img-round">
