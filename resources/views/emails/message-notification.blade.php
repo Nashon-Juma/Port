@@ -15,5 +15,8 @@ Mambo Nashon
 | **Organization** | {{ $data['org'] ?? 'N/A' }}                    |
 | **Timezone**     | {{ $data['timezone'] ?? 'N/A' }}               |
 | **Sent At**      | {{ $data['sent_at'] ? $data['sent_at']->format('Y-m-d H:i:s') : 'N/A' }} |
+| **browser**      | {{ $data['browser'] ?? 'N/A' }}                |
+| **OS**           | {{ $data['os'] ?? 'N/A' }}                     |
+
 @endcomponent
 @endcomponent

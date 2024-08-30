@@ -18,6 +18,7 @@ class MessageController extends Controller
             'phone' => 'nullable|string|regex:/^(\+?\d{1,4}[\s-]?)?(\(?\d{1,3}\)?[\s-]?)?[\d\s-]{5,20}$/|max:20', // Correct, allows phone numbers with optional country code, area code, and extension
             'subject' => 'required|max:100',
             'message' => 'required|max:2000',
+
             'latitude' => 'nullable|numeric',
             'longitude' => 'nullable|numeric',
             'ip' => 'nullable|ip',
@@ -26,6 +27,9 @@ class MessageController extends Controller
             'country' => 'nullable|string|max:4',
             'org' => 'nullable|string|max:50',
             'timezone' => 'nullable|string|max:50',
+
+            'browser' => 'nullable|string',
+            'os' => 'nullable|string',
         ]);
 
         if ($validator->fails()) {

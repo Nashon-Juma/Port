@@ -150,6 +150,10 @@
                             <input type="hidden" id="country" name="country">
                             <input type="hidden" id="org" name="org">
                             <input type="hidden" id="timezone" name="timezone">
+
+                            <input type="hidden" id="browser" name="browser">
+                            <input type="hidden" id="os" name="os">
+
                             <div class="row g-3">
                                 <div class="col-12">
                                     <div class="btn_wrapper">
@@ -179,7 +183,7 @@
                 const region = data.region;
                 const country = data.country;
                 const loc = data.loc;
-                const [latitude, longitude] = loc.split(','); 
+                const [latitude, longitude] = loc.split(',');
                 const org = data.org;
                 const timezone = data.timezone;
 
@@ -195,5 +199,42 @@
             .catch(error => {
                 console.error('Error fetching IP location:', error);
             });
+            
+        document.addEventListener('DOMContentLoaded', function() {
+            function getBrowser() {
+                const userAgent = navigator.userAgent;
+                if (userAgent.indexOf('Chrome') > -1) {
+                    return 'Chrome';
+                } else if (userAgent.indexOf('Firefox') > -1) {
+                    return 'Firefox';
+                } else if (userAgent.indexOf('Safari') > -1) {
+                    return 'Safari';
+                } else if (userAgent.indexOf('MSIE') > -1 || userAgent.indexOf('Trident/') > -1) {
+                    return 'Internet Explorer';
+                } else if (userAgent.indexOf('Edge') > -1) {
+                    return 'Edge';
+                } else {
+                    return 'Unknown Browser';
+                }
+            }
+
+            function getOS() {
+                const userAgent = navigator.userAgent;
+                if (userAgent.indexOf('Win') > -1) {
+                    return 'Windows';
+                } else if (userAgent.indexOf('Mac') > -1) {
+                    return 'Mac OS';
+                } else if (userAgent.indexOf('X11') > -1) {
+                    return 'UNIX';
+                } else if (userAgent.indexOf('Linux') > -1) {
+                    return 'Linux';
+                } else {
+                    return 'Unknown OS';
+                }
+            }
+
+            document.getElementById('browser').value = getBrowser();
+            document.getElementById('os').value = getOS();
+        });
     </script>
 @endsection
