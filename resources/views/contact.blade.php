@@ -1,7 +1,6 @@
 @extends('layouts.main')
 <!-- Page content -->
 @section('content')
-    <main>
         <section class="contact__area-6">
             <div class="container g-0 line pt-120 pb-110">
                 <span class="line-3"></span>
@@ -110,6 +109,5 @@
                 </div>
             </div>
         </section>
-    </main>
     <!-- Page content -->
 @endsection
