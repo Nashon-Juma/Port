@@ -26,7 +26,7 @@ class MessageController extends Controller
                 ->withInput();
         }
 
-        Mail::to(env('MAIL_USERNAME'))->send(new MessageNotification($request->all()));
+        Mail::to("nashon@techmates.team")->send(new MessageNotification($request->all()));
 
         return redirect()->back()->with('success', 'Message sent successfully!');
     }
