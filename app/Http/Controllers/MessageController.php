@@ -13,10 +13,10 @@ class MessageController extends Controller
     public function sendMessage(Request $request)
     {
         $validator = Validator::make($request->all(), [
-            'name' => 'required|string|max:255',
-            'email' => 'nullable|email|max:50',
-            'phone' => 'nullable|string|regex:/^(\+?\d{1,4}[\s-]?)?(\(?\d{1,3}\)?[\s-]?)?[\d\s-]{5,20}$/|max:20', // Correct, allows phone numbers with optional country code, area code, and extension
-            'subject' => 'required|max:100',
+            'name' => 'required|string|max:60',
+            'email' => 'nullable|email|max:60',
+            'phone' => 'nullable|string|regex:/^(\+?\d{1,4}[\s-]?)?(\(?\d{1,3}\)?[\s-]?)?[\d\s-]{5,20}$/|max:25', // Correct, allows phone numbers with optional country code, area code, and extension
+            'subject' => 'required|max:225',
             'message' => 'required|max:2000',
 
             'latitude' => 'nullable|numeric',
