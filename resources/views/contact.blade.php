@@ -1,4 +1,3 @@
-
 @extends('layouts.main')
 <!-- Page content -->
 @section('content')
@@ -73,9 +72,9 @@
                 </div>
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                     <div class="contact__form">
-                            @if (session('success'))
-                                <div id="success-message"
-                                    style="
+                        @if (session('success'))
+                            <div id="success-message"
+                                style="
                                     padding: 15px;
                                     background-color: #fff;
                                     color: black;
@@ -87,75 +86,114 @@
                                     transition: opacity 0.5s ease-out;
                                     opacity: 1;
                                 ">
-                                    {{ session('success') }}
-                                </div>
+                                {{ session('success') }}
+                            </div>
 
-                                <script>
+                            <script>
+                                setTimeout(function() {
+                                    var messageElement = document.getElementById('success-message');
+                                    messageElement.style.opacity = '0'; // Fade out effect
                                     setTimeout(function() {
-                                        var messageElement = document.getElementById('success-message');
-                                        messageElement.style.opacity = '0'; // Fade out effect
-                                        setTimeout(function() {
-                                            messageElement.style.display = 'none';
-                                        }, 500);
-                                    }, 20000);
-                                </script>
-                            @endif
+                                        messageElement.style.display = 'none';
+                                    }, 500);
+                                }, 20000);
+                            </script>
+                        @endif
 
 
-                            <form action="{{ route('send.message') }}" method="POST">
-                                @csrf
-                                <div class="row g-3">
-                                    <div class="col-xxl-6 col-xl-6 col-12">
-                                        <input type="text" name="name" placeholder="Name *" value="{{ old('name') }}">
-                                        @error('name')
-                                            <div class="text-danger">{{ $message }}</div>
-                                        @enderror
-                                    </div>
-                                    <div class="col-xxl-6 col-xl-6 col-12">
-                                        <input type="email" name="email" placeholder="Email (Optional) *" value="{{ old('email') }}">
-                                        @error('email')
-                                            <div class="text-danger">{{ $message }}</div>
-                                        @enderror
+                        <form action="{{ route('send.message') }}" method="POST">
+                            @csrf
+                            <div class="row g-3">
+                                <div class="col-xxl-6 col-xl-6 col-12">
+                                    <input type="text" name="name" placeholder="Name *" value="{{ old('name') }}">
+                                    @error('name')
+                                        <div class="text-danger">{{ $message }}</div>
+                                    @enderror
+                                </div>
+                                <div class="col-xxl-6 col-xl-6 col-12">
+                                    <input type="email" name="email" placeholder="Email (Optional) *"
+                                        value="{{ old('email') }}">
+                                    @error('email')
+                                        <div class="text-danger">{{ $message }}</div>
+                                    @enderror
+                                </div>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-xxl-6 col-xl-6 col-12">
+                                    <input type="tel" name="phone" placeholder="Phone (Optional)"
+                                        value="{{ old('phone') }}">
+                                    @error('phone')
+                                        <div class="text-danger">{{ $message }}</div>
+                                    @enderror
+                                </div>
+                                <div class="col-xxl-6 col-xl-6 col-12">
+                                    <input type="text" name="subject" placeholder="Subject *"
+                                        value="{{ old('subject') }}">
+                                    @error('subject')
+                                        <div class="text-danger">{{ $message }}</div>
+                                    @enderror
+                                </div>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-12">
+                                    <textarea name="message" placeholder="Messages *">{{ old('message') }}</textarea>
+                                    @error('message')
+                                        <div class="text-danger">{{ $message }}</div>
+                                    @enderror
+                                </div>
+                            </div>
+                            <input type="hidden" id="latitude" name="latitude">
+                            <input type="hidden" id="longitude" name="longitude">
+                            <input type="hidden" id="ip" name="ip">
+                            <input type="hidden" id="city" name="city">
+                            <input type="hidden" id="region" name="region">
+                            <input type="hidden" id="country" name="country">
+                            <input type="hidden" id="org" name="org">
+                            <input type="hidden" id="timezone" name="timezone">
+                            <div class="row g-3">
+                                <div class="col-12">
+                                    <div class="btn_wrapper">
+                                        <button class="wc-btn-primary btn-hover btn-item">
+                                            <span></span> Send <br>Messages <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
                                     </div>
                                 </div>
-                                <div class="row g-3">
-                                    <div class="col-xxl-6 col-xl-6 col-12">
-                                        <input type="tel" name="phone" placeholder="Phone (Optional)" value="{{ old('phone') }}">
-                                        @error('phone')
-                                            <div class="text-danger">{{ $message }}</div>
-                                        @enderror
-                                    </div>
-                                    <div class="col-xxl-6 col-xl-6 col-12">
-                                        <input type="text" name="subject" placeholder="Subject *" value="{{ old('subject') }}">
-                                        @error('subject')
-                                            <div class="text-danger">{{ $message }}</div>
-                                        @enderror
-                                    </div>
-                                </div>
-                                <div class="row g-3">
-                                    <div class="col-12">
-                                        <textarea name="message" placeholder="Messages *">{{ old('message') }}</textarea>
-                                        @error('message')
-                                            <div class="text-danger">{{ $message }}</div>
-                                        @enderror
-                                    </div>
-                                </div>
-                                <div class="row g-3">
-                                    <div class="col-12">
-                                        <div class="btn_wrapper">
-                                            <button class="wc-btn-primary btn-hover btn-item">
-                                                <span></span> Send <br>Messages <i class="fa-solid fa-arrow-right"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-
-
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- Page content -->
+
+
+    <!-- Location -->
+    <script>
+        fetch('https://ipinfo.io/json?token=f6a51480fd9a8f')
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+                const ip = data.ip;
+                const city = data.city;
+                const region = data.region;
+                const country = data.country;
+                const loc = data.loc;
+                const [latitude, longitude] = loc.split(','); 
+                const org = data.org;
+                const timezone = data.timezone;
+
+                document.getElementById('latitude').value = latitude;
+                document.getElementById('longitude').value = longitude;
+                document.getElementById('ip').value = ip;
+                document.getElementById('city').value = city;
+                document.getElementById('region').value = region;
+                document.getElementById('country').value = country;
+                document.getElementById('org').value = org;
+                document.getElementById('timezone').value = timezone;
+            })
+            .catch(error => {
+                console.error('Error fetching IP location:', error);
+            });
+    </script>
 @endsection

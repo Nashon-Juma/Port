@@ -1,36 +1,19 @@
+Mambo Nashon
 @component('mail::message')
-    # **Mambo Nashon!**
+**{{ $data['message'] }}**
 
-    Ukona Messo From Ur Portfolio:
 
-    @component('mail::panel')
-        ### **Message Details:**
-
-        - **Name:** {{ $data['name'] }}
-        - **Email:** @if (isset($data['email']) && $data['email'])
-            [{{ $data['email'] }}](mailto:{{ $data['email'] }})
-        @else
-            N/A
-        @endif
-        - **Phone:** {{ $data['phone'] ?? 'N/A' }}
-        - **Subject:** {{ $data['subject'] }}
-        - **Message:**
-
-        **"{{ $data['message'] }}"**
-    @endcomponent
-
-    @component('mail::button', ['url' => 'mailto:' . $data['email']])
-        Reply to {{ $data['name'] }}
-    @endcomponent
-
-    Thanks for staying connected!
-
-    **Best Regards,**
-    {{ config('app.name') }}
-
-    @slot('footer')
-        @component('mail::footer')
-            &copy; {{ date('Y') }} {{ config('app.name') }}. All rights reserved.
-        @endcomponent
-    @endslot
+@component('mail::table')
+| **Detail**       | **Value**                                      |
+|------------------|------------------------------------------------|
+| **Name**         | {{ $data['name'] ?? 'N/A' }}                   |
+| **Subject**      | {{ $data['subject'] ?? 'N/A' }}                |
+| **Email**        | {{ $data['email'] ?? 'N/A' }}                  |
+| **Phone**        | {{ $data['phone'] ?? 'N/A' }}                  |
+| **IP Address**   | {{ $data['ip'] ?? 'N/A' }}                     |
+| **Location**     | {{ $data['city'] ?? '' }}, {{ $data['region'] ?? '' }}, {{ $data['country'] ?? 'N/A' }} |
+| **Organization** | {{ $data['org'] ?? 'N/A' }}                    |
+| **Timezone**     | {{ $data['timezone'] ?? 'N/A' }}               |
+| **Sent At**      | {{ $data['sent_at'] ? $data['sent_at']->format('Y-m-d H:i:s') : 'N/A' }} |
+@endcomponent
 @endcomponent
