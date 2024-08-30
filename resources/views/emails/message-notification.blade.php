@@ -1,4 +1,4 @@
-Mambo Nashon
+Mambo Nashon "CONTACT-FORM :: PORTFOLIO"
 @component('mail::message')
 **{{ $data['message'] }}**
 
