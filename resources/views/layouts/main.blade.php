@@ -277,9 +277,6 @@
                                     <a href="https://www.linkedin.com/in/nashon-juma/">LinkedIn</a>
                                 </li>
                                 <li>
-                                    <a href="https://twitter.com/shonjuma" target="_blank">Twitter</a>
-                                </li>
-                                <li>
                                     <a href="https://stackoverflow.com/users/22793177/nashon"
                                         target="_blank">StackOverflow</a>
                                 </li>
