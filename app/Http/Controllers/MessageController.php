@@ -21,10 +21,10 @@ class MessageController extends Controller
             'latitude' => 'nullable|numeric',
             'longitude' => 'nullable|numeric',
             'ip' => 'nullable|ip',
-            'city' => 'nullable|string|max:15',
-            'region' => 'nullable|string|max:15',
+            'city' => 'nullable|string|max:25',
+            'region' => 'nullable|string|max:25',
             'country' => 'nullable|string|max:4',
-            'org' => 'nullable|string|max:255',
+            'org' => 'nullable|string|max:50',
             'timezone' => 'nullable|string|max:50',
         ]);
 
