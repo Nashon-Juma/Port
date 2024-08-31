@@ -66,18 +66,18 @@
                 <div class="row">
                     <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
                         <div class="story__img-wrapper">
-                            <img src="images/story-1.jpg" alt="Story Thumbnail" class="w-100">
+                            <img src="images/story1.jpg" alt="Story Thumbnail" class="w-100">
                         </div>
                     </div>
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                         <div class="story__img-wrapper img-anim">
-                            <img src="images/story-2.jpg" alt="Story Thumbnail" data-speed="auto">
+                            <img src="images/story2.jpg" alt="Story Thumbnail" data-speed="auto">
                         </div>
                     </div>
                     <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
                         <div class="story__img-wrapper">
-                            <img src="images/story-3.jpg" alt="Story Thumbnail">
-                            <img src="images/story-4.jpg" alt="Story Thumbnail">
+                            <img src="images/story3.jpg" alt="Story Thumbnail">
+                            <img src="images/story4.jpg" alt="Story Thumbnail">
                         </div>
                     </div>
                 </div>
