@@ -277,22 +277,22 @@
                             </div>
                             <div class="mid-content">
                                 <div class="service__image">
-                                    <img src="images/services-01.jpg" alt="Service Image">
+                                    <img src="images/services1.jpg" alt="Service Image">
                                 </div>
                                 <div class="service__image">
-                                    <img src="images/services-02.jpg" alt="Service Image">
+                                    <img src="images/services2.jpg" alt="Service Image">
                                 </div>
                                 <div class="service__image">
-                                    <img src="images/services-03.jpg" alt="Service Image">
+                                    <img src="images/services3.jpg" alt="Service Image">
                                 </div>
                                 <div class="service__image">
-                                    <img src="images/services-04.jpg" alt="Service Image">
+                                    <img src="images/services4.jpg" alt="Service Image">
                                 </div>
                                 <div class="service__image">
-                                    <img src="images/services-05.jpg" alt="Service Image">
+                                    <img src="images/services5.jpg" alt="Service Image">
                                 </div>
                                 <div class="service__image">
-                                    <img src="images/services-06.jpg" alt="Service Image">
+                                    <img src="images/services6.jpg" alt="Service Image">
                                 </div>
                             </div>
                             <div class="right-content">
