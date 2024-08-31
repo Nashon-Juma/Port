@@ -39,7 +39,7 @@
                                 </div> --}}
                 </div>
             </div>
-            <img src="images/hero.jpg" alt="Hero Image" class="hero3-img">
+            <img src="images/img-hero.jpg" alt="Hero Image" class="hero3-img">
         </section>
 
         {{--
@@ -168,7 +168,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="service__hover-3" style="background-image: url(images/img-strategy.jpg);"></div>
+                                <div class="service__hover-3" style="background-image: url(images/imgStrategy.jpg);"></div>
                             </div>
                             <div class="service__item-3 service_animation">
                                 <h3>
@@ -213,7 +213,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="service__hover-3" style="background-image: url(images/img-design.jpg);"></div>
+                                <div class="service__hover-3" style="background-image: url(images/imgDesign.jpg);"></div>
                             </div>
                             <div class="service__item-3 service_animation">
                                 <h3 class="">
@@ -258,7 +258,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="service__hover-3" style="background-image: url(images/img-engineering.jpg);">
+                                <div class="service__hover-3" style="background-image: url(images/imgEngineering.jpg);">
                                 </div>
                             </div>
                             <div class="service__item-3 service_animation">
@@ -307,7 +307,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="service__hover-3" style="background-image: url(images/img-marketing.jpg);">
+                                <div class="service__hover-3" style="background-image: url(images/imgMarketing.jpg);">
                                 </div>
                             </div>
                             <div class="service3__img-wrap">
@@ -666,7 +666,7 @@
                     </div>
                     <div class="col-xxl-6 col-xl-6 col-lg-6">
                         <div class="about__img-3">
-                            <img src="images/img-price-area.jpg" alt="About Thumbnail" data-speed="auto">
+                            <img src="images/price-area.jpg" alt="About Thumbnail" data-speed="auto">
                         </div>
                     </div>
                 </div>
