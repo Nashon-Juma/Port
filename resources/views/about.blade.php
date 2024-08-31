@@ -58,7 +58,7 @@
 <p>After years of hard work and dedication, I became a skilled web developer, crafting beautiful and functional websites that captured the imagination of users around the world. I,ve thrived in the fast-paced environment of the tech industry, constantly learning new languages, frameworks, and tools to stay ahead of the curve. But I,ve never forgot my roots as a mechanic. I cherished the memories of working in the workshop , and I often find myself longing for the smell of oil and the feel of metal beneath my fingertips. Determined to merge my two passions, I began exploring the world of embedded systems – the intersection of hardware and software where my skills as a mechanic and web developer could converge.</p>
 
 <p>With my background in mechanics and my expertise in web development, I quickly excelled in the field of embedded systems. I,ve designed innovative devices that combined cutting-edge technology with old-fashioned craftsmanship, creating machines that are both functional and beautiful. Whether I,m building a custom IoT device or optimizing the performance of a microcontroller, I approached each project with the same passion and precision I learnt in the workshop. Today, I enjoy a fulfilling career as both a web developer and an embedded systems engineer. I revel in the opportunity to combine my love for mechanics with my passion for technology, finding joy and satisfaction in every project I undertake. And though I may have started as a mechanic, I know that my journey is far from over – there are always new machines to build, new problems to solve, and new adventures waiting just around the corner.  </p>
-                               
+
                             </div>
                         </div>
                     </div>
@@ -69,12 +69,12 @@
                             <img src="images/story-1.jpg" alt="Story Thumbnail" class="w-100">
                         </div>
                     </div>
-                    <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                         <div class="story__img-wrapper img-anim">
                             <img src="images/story-2.jpg" alt="Story Thumbnail" data-speed="auto">
                         </div>
                     </div>
-                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
                         <div class="story__img-wrapper">
                             <img src="images/story-3.jpg" alt="Story Thumbnail">
                             <img src="images/story-4.jpg" alt="Story Thumbnail">
