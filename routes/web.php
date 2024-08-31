@@ -29,13 +29,13 @@ Route::get('/contact', function () {
 Route::post('/send-message', [MessageController::class, 'sendMessage'])->name('send.message');
 
 Route::get('/pillars-and-steps-of-ux-research', function () {
-    return view('pillars-and-steps-of-ux-research');
+    return view('extras.pillars-and-steps-of-ux-research');
 });
 
 Route::get('/ui-ux-design', function () {
-    return view('ui-ux-design');
+    return view('extras.ui-ux-design');
 });
 
 Route::get('/ui-ux-in-health-domain', function () {
-    return view('ui-ux-in-health-domain');
+    return view('extras.ui-ux-in-health-domain');
 });

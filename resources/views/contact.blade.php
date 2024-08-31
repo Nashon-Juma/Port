@@ -30,16 +30,15 @@
                         <ul>
                             <li>
                                 <p>3073-3074, Silver Business Point,</p>
-                                <p>Near VIP Circle, Uttran,</p>
-                                <p>Surat – 394105</p>
-                                <p>Gujarat, India</p>
+                                <p>Near NgongRoad, Dagoretti</p>
+                                <p>Nairobi, Kenya</p>
                             </li>
                             <li>
                                 <p>
-                                    <a href="tel:+91 – 94 268 88826">+91 94 268 88826</a>
+                                    <a href="tel:+254 7 268 88826">+254 7 268 88826</a>
                                 </p>
                                 <p>
-                                    <a href="tel:+91 – 90 335 01370">+91 90 335 01370</a>
+                                    <a href="tel:+254 7 335 01370">+254 7 335 01370</a>
                                 </p>
                             </li>
                             <li><br>
@@ -53,15 +52,15 @@
                         <div class="contact__title d-flex align-items-start">
                             <img src="images/kenya.png">
                             <div>
-                                <h3>Kiambu</h3>
-                                <p>Sales Office</p>
+                                <h3>Nairobi</h3>
+                                <p>Work Office</p>
                             </div>
                         </div>
                         <ul>
                             <li>
-                                <p>197 New Jersey 18,</p>
-                                <p>East Brunswick,</p>
-                                <p>NJ</p>
+                                <p>3073-3074, Silver Business Point,</p>
+                            <p>Near NgongRoad, Dagoretti</p>
+                            <p>Nairobi, Kenya</p
                             </li>
 
                             <li><br>
@@ -199,7 +198,7 @@
             .catch(error => {
                 console.error('Error fetching IP location:', error);
             });
-            
+
         document.addEventListener('DOMContentLoaded', function() {
             function getBrowser() {
                 const userAgent = navigator.userAgent;
