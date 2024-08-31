@@ -219,8 +219,8 @@
                     <div class="contact__title d-flex align-items-start">
                         <img src="images/kenya.png">
                         <div>
-                            <h3>Kiambu, Kenya</h3>
-                            <p>Tio</p>
+                            <h3>Nairobi</h3>
+                                <p>Work Office</p>
                         </div>
                     </div>
                     <ul>
