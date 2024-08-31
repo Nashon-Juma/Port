@@ -24,7 +24,8 @@
                             <img src="images/kenya-flag.png">
                             <div>
                                 <h3>Nairobi(HQ)</h3>
-                                <p>Corporate Office </p>
+                                <p>Developer's Team Office
+                                </p>
                             </div>
                         </div>
                         <ul>
