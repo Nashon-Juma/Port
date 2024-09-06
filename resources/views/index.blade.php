@@ -39,7 +39,7 @@
                                 </div> --}}
                 </div>
             </div>
-            <img src="images/img-hero.jpg" alt="Hero Image" class="hero3-img">
+            <img src="images/hero-img.jpg" alt="Hero Image" class="hero3-img">
         </section>
 
         {{--
