@@ -251,6 +251,7 @@
 
 
                 <!-- Main content area -->
+                
                 @yield('content')
 
             <!-- Footer content -->
