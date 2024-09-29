@@ -40,6 +40,7 @@
     <link rel="stylesheet" href="{{ asset('css/master.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
+    
     <!-- Google tag (gtag.js) -->
     <script async src="js/create.js"></script>
     <script>
