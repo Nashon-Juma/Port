@@ -29,16 +29,16 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="css/font.css" rel="stylesheet">
 
     <!-- All CSS files -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="css/progressbar.css">
-    <link rel="stylesheet" href="css/meanmenu.min.css">
-    <link rel="stylesheet" href="css/master.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{{ asset('css/font.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/all.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/swiper-bundle.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/progressbar.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/meanmenu.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/master.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
     <!-- Google tag (gtag.js) -->
     <script async src="js/create.js"></script>
@@ -110,7 +110,7 @@
                 <a href="/" class="logo-dark">
                     <img src="images/logo-black.png" alt="Site Logo">
                 </a>
-                <a href="https://techmates.team"  target="_blank" class="logo-light">{{-- NJ logo --}}
+                <a href="https://techmates.team" target="_blank" class="logo-light">{{-- NJ logo --}}
                     <img src="images/site-logo-white-2.png" alt="Logo">
                 </a>
             </div>
@@ -221,7 +221,7 @@
                         <img src="images/kenya.png">
                         <div>
                             <h3>Nairobi</h3>
-                                <p>Work Office</p>
+                            <p>Work Office</p>
                         </div>
                     </div>
                     <ul>
@@ -251,8 +251,8 @@
 
 
 
-                <!-- Main content area -->
-                @yield('content')
+            <!-- Main content area -->
+            @yield('content')
 
             <!-- Footer content -->
 
@@ -319,22 +319,20 @@
             </footer>
             <!-- Footer area end -->
 
-            <script src="js/jquery-3.6.0.min.js"></script>
-            <script src="js/bootstrap.bundle.min.js"></script>
-            <script src="js/swiper-bundle.min.js"></script>
-            <script src="js/counter.js"></script>
-            <script src="js/gsap.min.js"></script>
-            <script src="js/ScrollTrigger.min.js"></script>
-            <script src="js/ScrollToPlugin.min.js"></script>
-            <script src="js/ScrollSmoother.min.js"></script>
-            <script src="js/SplitText.min.js"></script>
-            <script src="js/chroma.min.js"></script>
-            <script src="js/mixitup.min.js"></script>
-            <script src="js/vanilla-tilt.js"></script>
-            <script src="js/jquery.meanmenu.min.js"></script>
-            <script src="js/main.js"></script>
-
-
-            </footer>
+            <script src="{{ asset('js/jquery-3.6.0.min.js') }}"></script>
+            <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
+            <script src="{{ asset('js/swiper-bundle.min.js') }}"></script>
+            <script src="{{ asset('js/counter.js') }}"></script>
+            <script src="{{ asset('js/gsap.min.js') }}"></script>
+            <script src="{{ asset('js/ScrollTrigger.min.js') }}"></script>
+            <script src="{{ asset('js/ScrollToPlugin.min.js') }}"></script>
+            <script src="{{ asset('js/ScrollSmoother.min.js') }}"></script>
+            <script src="{{ asset('js/SplitText.min.js') }}"></script>
+            <script src="{{ asset('js/chroma.min.js') }}"></script>
+            <script src="{{ asset('js/mixitup.min.js') }}"></script>
+            <script src="{{ asset('js/vanilla-tilt.js') }}"></script>
+            <script src="{{ asset('js/jquery.meanmenu.min.js') }}"></script>
+            <script src="{{ asset('js/main.js') }}"></script>
 </body>
+
 </html>
