@@ -11,6 +11,7 @@
         content="nashon juma , nashon ,juma ,web developer kenya,web-developer, portfolio, portfolio kenya, devops,devops kenya,sales funnel optimization,brand positioning,messaging development,user experience (ux) consulting,process automation,user testing,personas,data-driven design,design thinking workshops,user interface (ui) design,interaction design,graphic design,animation,wordpress development,drupal development,laravel development,platform migration,data migration,ecommerce development,website maintenance,website hosting,api integration,crm integration,lead generation,lead nurturing,media management,digital marketing campaigns,crm management">
 
     <meta http-equiv="Accept-CH" content="Sec-CH-UA-Platform-Version, Sec-CH-UA-Model" />
+    <meta name="google-site-verification" content="qFLheqKShn-svLtRos9xWX4Hu7xZJmQEO2e80pE1cG8" />
     <!-- Fav Icon -->
     <link rel="icon" type="image/x-icon" href="images/pox.png" />
     <meta itemprop="name" content="Nashon Portfolio" />
