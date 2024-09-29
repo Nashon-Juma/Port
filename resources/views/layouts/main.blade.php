@@ -53,7 +53,6 @@
         gtag('config', 'G-PSKS7M0BEQ');
     </script>
 
-
     <!-- Google Tag Manager -->
     <script>
         (function(w, d, s, l, i) {
