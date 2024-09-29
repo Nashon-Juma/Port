@@ -40,7 +40,7 @@
     <link rel="stylesheet" href="{{ asset('css/master.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
-    
+
     <!-- Google tag (gtag.js) -->
     <script async src="js/create.js"></script>
     <script>
@@ -212,7 +212,7 @@
                             </p>
                         </li>
                         <li>
-                            <a href="mailto:info@techmatessolutions.com">developer@juma.annady.com</a>
+                            <a href="mailto:developer@jumaz.anonaddy.com">developer@juma.annady.com</a>
                         </li>
                     </ul>
                 </div>
