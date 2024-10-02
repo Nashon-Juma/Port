@@ -212,7 +212,7 @@
                             </p>
                         </li>
                         <li>
-                            <a href="mailto:developer@jumaz.anonaddy.com">developer@juma.annady.com</a>
+                            <a href="mailto:developer@jumaz.anonaddy.com">developer@jumaz.anonaddy.com</a>
                         </li>
                     </ul>
                 </div>
@@ -232,7 +232,7 @@
                         </li>
 
                         <li>
-                            <a href="mailto:info@techmatessolutions.com">developer@juma.annady.com</a>
+                            <a href="mailto:info@techmatessolutions.com">developer@jumaz.anonaddy.com</a>
                         </li>
                     </ul>
                 </div>
