@@ -1,0 +1,506 @@
+/*
+TMS V 1.0
+*/
+
+/* Common CSS */
+
+.tms-hero .header__logo-2 a.logo-light img, .tms_overlay .offcanvas__logo img, .tms-footer .footer__logo-3 img {
+    width: 200px;
+}
+
+.img-round img {
+    -webkit-animation: wcSpinner 3s infinite linear;
+    animation: wcSpinner 3s infinite linear;
+}
+
+.tms-hero .hero__inner-3 {
+    top: 5%;
+}
+
+.tms_overlay .offcanvas__contact li p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--white);
+}
+
+.tms-brand .brand__item-2 img {
+    width: 150px;
+    opacity: 0.5;
+}
+
+.tms-services .service__content-3 img, .service__sec .service__item-2 ul li img {
+    width: 20px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+
+.tms-services .service__content-3 li, .service__sec .service__item-2 ul li {
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.tms-why-choose .counter__area-3 .sec-sub-title {
+    color: var(--white);
+}
+
+.portfolio__title-3 {
+    font-size: 130px;
+}
+
+.dark .brand__item img {
+    width: 130px;
+    opacity: 0.5;
+}
+
+.service__sec .service__item-2:nth-child(2n+1)::before {
+    position: unset;
+}
+
+.service__sec .service__item-2 img {
+    width: 180px;
+}
+
+h3.services__subTitle {
+    font-size: 22px;
+    color: var(--gray-2);
+    margin-bottom: 15px;
+}
+
+.contact__title h3 {
+    padding-bottom: 0;
+}
+
+.contact__title img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.contact__title {
+    margin-bottom: 15px;
+}
+
+.contact__info ul li p {
+    color: var(--white);
+}
+
+.offcanvas__contact {
+    padding-top: 65px;
+}
+
+.service__sec .service__list-2 {
+    -ms-grid-columns: 1fr 120px 1fr 120px 1fr;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contact__info ul li {
+    padding-bottom: 15px;
+}
+
+.feature__area-6.ui-ux-services {
+    background-color: var(--d-black-2);
+}
+
+.solution__text p {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.feature__content-right .ui-ux-text p {
+    padding-bottom: 15px;
+}
+
+.feature__content-right .ui-ux-text h3 {
+    color: var(--white);
+    padding-bottom: 10px;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.feature__content-right .ui-ux-text {
+    padding-bottom: 100px;
+}
+
+.feature__area-6 .section_wrapper {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    opacity: 0.3;
+}
+
+.about__area-2.ui-ux-process {
+    background-color: var(--black-2);
+}
+
+.about__img-3.ui-ux-process-img {
+    height: 500px;
+}
+
+.about__area-3.ux-research, .ux-research .sec-title {
+    background-color: var(--d-black-2);
+}
+
+.about__area-3.ui-research, .ui-research .sec-title {
+    background-color: var(--d-black-2);
+}
+
+.about__area.design_system {
+    background-color: var(--d-black-2);
+}
+
+.ui-ux-horizontal .choose-title-wrapper .choose-title {
+    font-size: 100px;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+}
+
+.ui-ux-horizontal .choose-title-wrapper p {
+    font-size: 50px;
+}
+
+h2.ui-ux-sec-title {
+    padding-bottom: 15px;
+    color: var(--gray-2);
+}
+
+.workflow__area-3.ui-ux-horizontal .research__area h3 {
+    letter-spacing: 1px;
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+
+.workflow__area-3.ui-ux-horizontal .research__area .sec-sub-title {
+    font-size: 60px;
+    color: var(--gray-2);
+    padding-bottom: 50px;
+}
+
+.workflow__area-3.ui-ux-horizontal .research__area .sec-title-wrapper p {
+    max-width: 100%;
+    font-size: 26px;
+    color: var(--gray-2);
+    margin-left: 0px;
+}
+
+p.ui-ux-sec-sub-title {
+    margin-top: 25px;
+    font-weight: 600;
+}
+
+.research__area.bg_dark_color {
+    background: #222222;
+    background-image: url(../images/bg-icon-12.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.research__area img {
+    width: 500px;
+}
+
+.workflow__area-3.ui-ux-horizontal .research__area .sec-title-wrapper.text-center p {
+    max-width: 50%;
+    font-size: 22px;
+    margin: 0 auto;
+}
+
+.about__area-7 {
+    background-color: var(--d-black-2);
+}
+
+.about__area-2.pixel-product {
+    background-color: var(--black-2);
+}
+
+section.award__area .service__right-4.text-anim p {
+    font-size: 25px;
+    padding-right: 0;
+}
+
+.service__title-wrapper-4 h4 {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: var(--white);
+}
+
+.plan-steps .workflow__item-4 img {
+    width: 100px;
+}
+
+.cta__area.web-app-contact {
+    background: var(--d-black-2);
+}
+
+.service__area.saas-app {
+    background: var(--black-2);
+}
+
+.saas-app .sec-title-wrapper .sec-title {
+    color: var(--white);
+    text-transform: inherit;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-color: var(--black-2);
+}
+
+.saas-app .about__img-3 img {
+    height: 80%;
+}
+
+.saas-app .sec-text-wrapper .sec-text p {
+    font-size: 25px;
+}
+
+h3.saas-sec-sub-title {
+    font-size: 40px;
+    color: var(--white);
+    padding-top: 50px;
+}
+
+.workflow__area.web-app-steps {
+    position: relative;
+}
+
+.service__area.design-services {
+    background-color: var(--d-black-2);
+}
+
+.design-services .sec-title-wrapper .sec-title {
+    background-color: var(--d-black-2);
+}
+
+.dark .award__area.ui-fast-easy {
+    background-color: var(--black-2);
+    position: relative;
+}
+
+.dark .award__area.comming-back {
+    position: relative;
+}
+
+.hero__subtitle {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .service__sec .service__item-2 ul li {
+        line-height: 40px;
+        font-size: 14px;
+    }
+
+    .workflow__area-3.ui-ux-horizontal .research__area .sec-sub-title {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+
+    .workflow__area-3.ui-ux-horizontal .research__area h3 {
+        font-size: 25px;
+    }
+
+    .workflow__area-3.ui-ux-horizontal .research__area .sec-title-wrapper p {
+        font-size: 18px;
+    }
+
+    .ui-ux-horizontal .choose-title-wrapper .choose-title {
+        font-size: 40px;
+    }
+
+    .ui-ux-horizontal .choose-title-wrapper p {
+        font-size: 18px;
+    }
+
+    .service__title-wrapper-4 h4 {
+        font-size: 35px;
+    }
+
+    .about__img-3 {
+        padding-top: 50px;
+    }
+
+    h3.saas-sec-sub-title {
+        padding: 50px 0;
+    }
+
+    section.award__area .service__right-4.text-anim p {
+        font-size: 20px;
+    }
+
+    .saas-app .sec-text-wrapper .sec-text p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .service__title-3 {
+        font-size: 26px;
+    }
+
+    .tms-services .service__content-3 li {
+        line-height: 35px;
+        font-size: 14px;
+    }
+
+    .service__sec .service__item-2 ul li {
+        line-height: 35px;
+        font-size: 12px;
+    }
+
+    ul.services__secBlock {
+        padding: 0;
+    }
+
+    .portfolio__title-3 {
+        font-size: 120px;
+    }
+
+    .workflow__area-3.ui-ux-horizontal .research__area h3 {
+        font-size: 30px;
+    }
+
+    .workflow__area-3.ui-ux-horizontal .research__area .sec-title-wrapper p {
+        font-size: 18px;
+    }
+
+    .ui-ux-horizontal .choose-title-wrapper .choose-title {
+        font-size: 40px;
+    }
+
+    .ui-ux-horizontal .choose-title-wrapper p {
+        font-size: 18px;
+    }
+
+    .service__title-wrapper-4 h4 {
+        font-size: 25px;
+    }
+
+    .about__img-3 {
+        padding-top: 50px;
+    }
+
+    h3.saas-sec-sub-title {
+        padding: 50px 0;
+        font-size: 30px;
+    }
+
+    section.award__area .service__right-4.text-anim p {
+        font-size: 20px;
+    }
+
+    .saas-app .sec-text-wrapper .sec-text p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .wc-btn-black {
+        width: 125px;
+        height: 125px;
+    }
+
+    .portfolio__title-3 {
+        font-size: 90px;
+    }
+
+    .workflow__area-3.ui-ux-horizontal .research__area h3 {
+        font-size: 30px;
+    }
+
+    .workflow__area-3.ui-ux-horizontal .research__area .sec-title-wrapper p {
+        font-size: 18px;
+    }
+
+    .ui-ux-horizontal .choose-title-wrapper .choose-title {
+        font-size: 35px;
+    }
+
+    .ui-ux-horizontal .choose-title-wrapper p {
+        font-size: 18px;
+    }
+
+    .service__title-wrapper-4 h4 {
+        font-size: 25px;
+    }
+
+    .about__img-3 {
+        padding-top: 50px;
+    }
+
+    section.award__area .service__right-4.text-anim p {
+        font-size: 20px;
+    }
+
+    .saas-app .sec-text-wrapper .sec-text p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    ul.services__secBlock {
+        padding: 0;
+    }
+
+    .portfolio__title-3 {
+        font-size: 65px;
+    }
+
+    .tms-footer .footer__logo-3 {
+        text-align: center;
+    }
+
+    .tms-footer .footer__logo-3 p {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .service__sec .service__list-2 {
+        -ms-grid-columns: 1fr 120px 1fr 120px 1fr;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .dark .service__item-2::before {
+        position: unset;
+    }
+
+    .workflow__area-3.ui-ux-horizontal .research__area h3 {
+        font-size: 30px;
+    }
+
+    .workflow__area-3.ui-ux-horizontal .research__area .sec-title-wrapper p {
+        font-size: 18px;
+    }
+
+    .ui-ux-horizontal .choose-title-wrapper .choose-title {
+        font-size: 32px;
+    }
+
+    .ui-ux-horizontal .choose-title-wrapper p {
+        font-size: 18px;
+    }
+
+    .workflow__area-3.ui-ux-horizontal .research__area .sec-title-wrapper.text-center p {
+        max-width: 100%;
+        font-size: 18px;
+    }
+
+    .service__title-wrapper-4 h4 {
+        font-size: 30px;
+    }
+
+    section.award__area .service__right-4.text-anim p {
+        font-size: 18px;
+    }
+
+    .about__img-3 {
+        padding-top: 50px;
+    }
+
+    .saas-app .sec-text-wrapper .sec-text p {
+        font-size: 18px;
+    }
+
+    h3.saas-sec-sub-title {
+        font-size: 25px;
+    }
+}
