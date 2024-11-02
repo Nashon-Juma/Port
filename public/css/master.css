@@ -7207,6 +7207,27 @@ img {
     }
 }
 
+.research-link {
+    color: #fff; /* Default color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.research-link i {
+    color: #9c9c9c; /* Default icon color */
+    transition: color 0.3s ease; /* Smooth transition for the icon */
+}
+
+.research-link:hover {
+    color: #00aaff; /* Change text color on hover */
+    transform: translateY(-2px); /* Slightly lift the link on hover */
+}
+
+.research-link:hover i {
+    color: #00aaff; /* Change icon color on hover */
+}
+
+
 .hero__area-3 .hero3-img-anim {
     overflow: hidden;
     position: relative;

@@ -461,7 +461,7 @@
                         <div class="row">
                             <div class="col-xxl-12">
                                 <div class="choose-title-wrapper">
-                                    <h2 class="choose-title title-anim">More <br> info -> </h2>
+                                    <h2 class="choose-title title-anim">Web <br> Developer</h2>
                                 </div>
                             </div>
                         </div>
@@ -505,14 +505,15 @@
                                             <h4 class="research__title"
                                                 style="margin: 0; color: #333; text-decoration: none;">
                                                 <a href="https://www.lidonation.com/" target="_blank"
-                                                    style="color: #fff; text-decoration: none;">
+                                                    class="research-link">
                                                     Lido Nation
                                                     <i class="fas fa-external-link-alt"
-                                                        style="margin-left: 5px; color: #333;"></i>
+                                                        style="margin-left: 5px; color: #b5b5b5;"></i>
                                                 </a>
                                             </h4>
-                                            <p>Transform your digital presence with the power of the extraordinary. I always
-                                                bring the 'WOW' factor to every project due to my lasting impression.</p>
+                                            <p>Empowering the next generation through blockchain technology and education, <br>
+                                                I'm currently working full-time with Lido Nation to improve this innovative
+                                                platform that bridges learning and digital finance.</p>
                                         </div>
                                     </div>
                                     <div class="research__item">
@@ -526,15 +527,15 @@
                                         <div class="research__info">
                                             <h4 class="research__title"
                                                 style="margin: 0; color: #333; text-decoration: none;">
-                                                <a href="https://ngongroad.org/" target="_blank"
-                                                    style="color: #fff; text-decoration: none;">
+                                                <a href="https://ngongroad.org/" target="_blank" class="research-link">
                                                     NgongRoad Foundation
                                                     <i class="fas fa-external-link-alt"
-                                                        style="margin-left: 5px; color: #333;"></i>
+                                                        style="margin-left: 5px; color: #b5b5b5;"></i>
                                                 </a>
                                             </h4>
-                                            <p>Embrace individuality and stand out in the crowd. I'll help you be different
-                                                and distinct in a sea of sameness.</p>
+                                            <p>I've freelanced with NgongRoad to
+                                                improve their WordPress site that connects generous sponsors with children
+                                                in need, turning hope into reality.</p>
                                         </div>
                                     </div>
                                     <div class="research__item">
@@ -548,15 +549,14 @@
                                         <div class="research__info">
                                             <h4 class="research__title"
                                                 style="margin: 0; color: #333; text-decoration: none;">
-                                                <a href="https://hubofteens.shop/" target="_blank"
-                                                    style="color: #fff; text-decoration: none;">
+                                                <a href="https://hubofteens.shop/" target="_blank" class="research-link">
                                                     Hub of Teens
                                                     <i class="fas fa-external-link-alt"
-                                                        style="margin-left: 5px; color: #333;"></i>
+                                                        style="margin-left: 5px; color: #b5b5b5;"></i>
                                                 </a>
                                             </h4>
-                                            <p>Embrace a passion for excellence in all I do. I'm deeply in love with
-                                                delivering world-class digital solutions.</p>
+                                            <p>I crafted a vibrant eCommerce platform for Hub of Teens, making wellness accessible to
+                                                all.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -593,9 +593,8 @@
                 <div class="row">
                     <div class="col-xxl-6 col-xl-6 col-lg-6">
                         <div class="sec-title-wrapper">
-                            <h2 class="sec-sub-title title-anim">Unlock your digital potential and drive lasting change
-                            </h2>
-                            <h3 class="sec-title title-anim">Realm of new <br>capabilities </h3>
+                            <h2 class="sec-sub-title title-anim">Knowledge is Power, Empower yourself through</h2>
+                            <h3 class="sec-title title-anim">Some of my <br>Latest Blogs</h3>
                         </div>
                         <div class="faq__list-3">
                             <div class="accordion" id="accordionExample">
@@ -615,6 +614,7 @@
                                                 to market faster. My expertise in cutting-edge connected devices and IoT
                                                 technologies, such as Telematics and wearables accelerates your journey
                                                 into the digital realm.</p>
+                                                <a href="#">READ MORE</a>
                                         </div>
                                     </div>
                                 </div>
@@ -633,6 +633,7 @@
                                                 30% or more. With my expertise in cloud integrations, enterprise mobility,
                                                 and data-driven insights, I empower your business to take
                                                 full advantage of the digital frontier.</p>
+                                                <a href="#">READ MORE</a>
                                         </div>
                                     </div>
                                 </div>
@@ -651,6 +652,7 @@
                                                 continuous delivery to bring the excitement back to testing. With automation
                                                 serving as the backbone of modernization, you can embrace change with
                                                 confidence, free from the fear of regression.</p>
+                                                <a href="#">READ MORE</a>
                                         </div>
                                     </div>
                                 </div>
@@ -670,6 +672,7 @@
                                                 the art of creating a seamless and impactful online presence that reaches my
                                                 target audience through every paid, owned and earned media channel, no
                                                 matter where they are located.</p>
+                                                <a href="#">READ MORE</a>
                                         </div>
                                     </div>
                                 </div>
