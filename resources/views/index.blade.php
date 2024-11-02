@@ -17,7 +17,8 @@
                                 <img src="images/23.png" alt="shape">
                             </div>
                             <div class="hero__text-3">
-                                <p class="animation__word_come">As a passionate and driven website developer, I tackle significant
+                                <p class="animation__word_come">As a passionate and driven website developer, I tackle
+                                    significant
                                     obstacles with innovative solutions. I excel in creating stunning websites,
                                     applications, dashboards and user-friendly interfaces that are both visually appealing
                                     and functional.</p>
@@ -97,7 +98,7 @@
                                     services to deliver comprehensive solutions that elevate your online presence. Allow me
                                     to show you the best the digital realm has to offer with us.</p>
                                 <div class="btn_wrapper">
-                                    <a href="./Profile.pdf" target="_blank"  class="wc-btn-light btn-hover btn-item" >
+                                    <a href="./Profile.pdf" target="_blank" class="wc-btn-light btn-hover btn-item">
                                         <span></span> View My Resume <i class="fa-solid fa-arrow-right"></i>
                                     </a>
                                 </div>
@@ -127,36 +128,40 @@
                         <div class="service__list-3 tms-services">
                             <div class="service__item-3 service_animation">
                                 <h3>
-                                    <a href="services" class="service__title-3">1. Strategy</a>
+                                    <a href="services" class="service__title-3">1. Backend Strategy</a>
                                 </h3>
                                 <div class="service__content-3">
-                                    <p>Crafting innovative solutions to drive business success through insightful strategy.
+                                    <p>Defining backend strategies to improve scalability, security, and efficiency.
                                     </p>
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <ul class="">
+                                                {{-- <li>
+                                                    <img src="images/strategy-01.svg">Database Design & Optimization
+                                                </li> --}}
                                                 <li>
-                                                    <img src="images/strategy-01.svg">Market & Competitive Research
+                                                    <img src="images/strategy-02.svg">API Lifecycle Management (Design,
+                                                    Documentation, and Testing)
                                                 </li>
                                                 <li>
-                                                    <img src="images/strategy-02.svg">Marketing Strategy
-                                                </li>
-                                                <li>
-                                                    <img src="images/strategy-03.svg">CRM & Sales Funnel Strategy
+                                                    <img src="images/strategy-03.svg">Scalability and Load Testing Strategy
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="col-lg-6">
                                             <ul class="services__secBlock">
                                                 <li>
-                                                    <img src="images/strategy-04.svg">Brand Positioning & Messaging
+                                                    <img src="images/strategy-04.svg">Performance Monitoring & Scaling
+                                                    Strategies
                                                 </li>
                                                 <li>
-                                                    <img src="images/strategy-05.svg">UX Consulting
+                                                    <img src="images/strategy-05.svg">Deployment Strategy and CI/CD
+                                                    Integration
+
                                                 </li>
-                                                <li>
-                                                    <img src="images/strategy-06.svg">Process Automation
-                                                </li>
+                                                {{-- <li>
+                                                    <img src="images/strategy-06.svg">Security and Compliance
+                                                </li> --}}
                                             </ul>
                                         </div>
                                     </div>
@@ -172,36 +177,40 @@
                             </div>
                             <div class="service__item-3 service_animation">
                                 <h3>
-                                    <a href="services" class="service__title-3 ">2. Design</a>
+                                    <a href="services" class="service__title-3 ">2. Backend Development</a>
                                 </h3>
                                 <div class="service__content-3">
-                                    <p>Crafting visually impactful and user-centered solutions for optimal brand experience.
+                                    <p>Building robust, maintainable backend systems to power applications and deliver
+                                        seamless experiences.
                                     </p>
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <ul class="">
                                                 <li>
-                                                    <img src="images/design-01.svg">User Testing & Personas
+                                                    <img src="images/design-01.svg">RESTful API Development
                                                 </li>
                                                 <li>
-                                                    <img src="images/design-02.svg">Wireframing & Prototyping
+                                                    <img src="images/design-02.svg">Automated Testing & Test-Driven
+                                                    Development (TDD)
                                                 </li>
                                                 <li>
-                                                    <img src="images/design-03.svg">Data-Informed UX Design
+                                                    <img src="images/design-03.svg">Database Management (MySQL, PostgreSQL,
+                                                    MongoDB)
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="col-lg-6">
                                             <ul class="services__secBlock">
                                                 <li>
-                                                    <img src="images/design-04.svg">Design Thinking Workshops
+                                                    <img src="images/design-04.svg">Authentication & Authorization (OAuth,
+                                                    JWT, Session-Based)
+                                                </li>
+                                                {{-- <li>
+                                                    <img src="images/design-05.svg">Caching Strategies (Redis, Memcached)
                                                 </li>
                                                 <li>
-                                                    <img src="images/design-05.svg">UI & Interaction Design
-                                                </li>
-                                                <li>
-                                                    <img src="images/design-06.svg">Graphic Design & Animation
-                                                </li>
+                                                    <img src="images/design-06.svg">Cloud Functions & Serverless Architecture
+                                                </li> --}}
                                             </ul>
                                         </div>
                                     </div>
@@ -217,35 +226,38 @@
                             </div>
                             <div class="service__item-3 service_animation">
                                 <h3 class="">
-                                    <a href="services" class="service__title-3">3. Cross-Platform</a>
+                                    <a href="services" class="service__title-3">3. Integration & Automation</a>
                                 </h3>
                                 <div class="service__content-3">
-                                    <p>Building efficient, cutting-edge technology solutions to power your business forward.
+                                    <p>Ensuring smooth interconnectivity between platforms and streamlining processes for
+                                        efficiency.
                                     </p>
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <ul class="">
+                                                {{-- <li>
+                                                    <img src="images/engineering-01.svg">Data Synchronization Across Platforms
+                                                </li> --}}
                                                 <li>
-                                                    <img src="images/engineering-01.svg">WordPress, Drupal & Laravel
+                                                    <img src="images/engineering-02.svg">Third-Party API Integration
+                                                    (Payment Gateways, Social Media, etc.)
                                                 </li>
                                                 <li>
-                                                    <img src="images/engineering-02.svg">Platform & Data Migration
-                                                </li>
-                                                <li>
-                                                    <img src="images/engineering-03.svg">eCommerce
+                                                    <img src="images/engineering-03.svg">Data Pipelines and ETL Processes
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="col-lg-6">
                                             <ul class="services__secBlock">
                                                 <li>
-                                                    <img src="images/engineering-04.svg">Website Maintenance & Hosting
+                                                    <img src="images/engineering-04.svg">Message Queues (RabbitMQ, Kafka)
                                                 </li>
                                                 <li>
-                                                    <img src="images/engineering-05.svg">Custom API Integration
+                                                    <img src="images/engineering-05.svg">Workflow Automation (Scripting,
+                                                    Cron Jobs)
                                                 </li>
                                                 <li>
-                                                    <img src="images/engineering-06.svg">CRM and other middleware
+                                                    <img src="images/engineering-06.svg">CRM and ERP Integration
                                                 </li>
                                             </ul>
                                         </div>
@@ -263,31 +275,32 @@
                             </div>
                             <div class="service__item-3 service_animation">
                                 <h3 class="">
-                                    <a href="services" class="service__title-3">4. Data-Management</a>
+                                    <a href="services" class="service__title-3">4. Data Management & Analytics</a>
                                 </h3>
                                 <div class="service__content-3">
-                                    <p>Elevating brand awareness and driving customer engagement through innovative
-                                        marketing tactics. </p>
+                                    <p>Optimizing data handling and implementing insights-driven solutions for improved
+                                        decision-making. </p>
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <ul class="">
                                                 <li>
-                                                    <img src="images/marketing-01.svg">Marketing Personas
+                                                    <img src="images/marketing-01.svg">Database Administration &
+                                                    Maintenance
                                                 </li>
                                                 <li>
-                                                    <img src="images/marketing-02.svg">Lead Acquisition & Nurturing
+                                                    <img src="images/marketing-02.svg">Data Migration & Backup Strategies
                                                 </li>
                                                 <li>
-                                                    <img src="images/marketing-03.svg">Brand Messaging
+                                                    <img src="images/marketing-03.svg">Logging & Error Monitoring
                                                 </li>
                                                 <li>
-                                                    <img src="images/marketing-04.svg">Media Strategy & Management
+                                                    <img src="images/marketing-04.svg">Analytics & Reporting Setup
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="col-lg-6">
                                             <ul class="services__secBlock">
-                                                <li>
+                                                {{-- <li>
                                                     <img src="images/marketing-05.svg">Digital Marketing Campaigns
                                                 </li>
                                                 <li>
@@ -295,7 +308,7 @@
                                                 </li>
                                                 <li>
                                                     <img src="images/marketing-07.svg">Content Creation
-                                                </li>
+                                                </li> --}}
                                             </ul>
                                         </div>
                                     </div>
@@ -448,7 +461,7 @@
                         <div class="row">
                             <div class="col-xxl-12">
                                 <div class="choose-title-wrapper">
-                                    <h2 class="choose-title title-anim">why <br> choose me </h2>
+                                    <h2 class="choose-title title-anim">More <br> info -> </h2>
                                 </div>
                             </div>
                         </div>
@@ -459,12 +472,12 @@
                         <div class="row">
                             <div class="col-xxl-6 col-xl-6 col-lg-6">
                                 <div class="sec-title-wrapper">
-                                    <h2 class="sec-sub-title">why <br>choose me </h2>
-                                    <h3 class="sec-title">Listening, Creating & Delivering with Expertise</h3>
-                                    <p>Crafting digital excellence through the perfect balance of strategy, creativity, and
-                                        technical expertise. My exceptional designing skills, possessing both intelligence
-                                        and imaginative flair, is dedicated to elevating your digital experience and
-                                        exceeding your every expectation. </p>
+                                    <h2 class="sec-sub-title">Transforming Visions into Impact</h2>
+                                    <h3 class="sec-title">Empowered by Client Success Stories</h3>
+                                    <p>Partnering with diverse brands, I blend strategy, creativity, and technical know-how
+                                        to craft standout digital solutions. My focus on collaboration ensures that every
+                                        project not only meets but surpasses the expectations of those I serve. Experience
+                                        the difference that client-centric excellence can make.</p>
                                 </div>
                                 <ul class="research__tools">
                                     <li>
@@ -481,33 +494,57 @@
                             <div class="col-xxl-6 col-xl-6 col-lg-6">
                                 <div class="research__list">
                                     <div class="research__item">
-                                        <div class="research__number">
-                                            <span>90%</span>
+                                        <div class="research__number"
+                                            style="width: 60px; height: 60px; border-radius: 50%; overflow: hidden; display: flex; align-items: center; justify-content: center; background-color: white; border: 2px solid #f0f0f0;">
+                                            <span>
+                                                <img src="images/lido.png"
+                                                    style="width: 100%; height: auto; display: block;">
+                                            </span>
                                         </div>
                                         <div class="research__info">
-                                            <h4 class="research__title">Creative</h4>
-                                            <p>Transform your digital presence with the power of the extraordinary.I always bring the 'WOW'
-                                                 factor to every project due to my lasting impression.</p>
+                                            <h4 class="research__title"
+                                                style="margin: 0; color: #333; text-decoration: none;">
+                                                <a href="https://www.lidonation.com/" target="_blank"
+                                                    style="color: inherit; text-decoration: none;">Lido Nation</a>
+                                            </h4>
+                                            <p>Transform your digital presence with the power of the extraordinary. I always
+                                                bring the 'WOW' factor to every project due to my lasting impression.</p>
                                         </div>
                                     </div>
                                     <div class="research__item">
-                                        <div class="research__number">
-                                            <span>100%</span>
+                                        <div class="research__number"
+                                            style="width: 60px; height: 60px; border-radius: 50%; overflow: hidden; display: flex; align-items: center; justify-content: center; background-color: white; border: 2px solid #f0f0f0;">
+                                            <span>
+                                                <img src="images/ngong.png"
+                                                    style="width: 100%; height: auto; display: block;">
+                                            </span>
                                         </div>
                                         <div class="research__info">
-                                            <h4 class="research__title">Unique</h4>
-                                            <p>Embrace individuality and stand out in the crowd.I'll
-                                                help you be different and distinct in a sea of sameness.</p>
+                                            <h4 class="research__title"
+                                                style="margin: 0; color: #333; text-decoration: none;">
+                                                <a href="https://ngongroad.org/" target="_blank"
+                                                    style="color: inherit; text-decoration: none;">NgongRoad Foundation</a>
+                                            </h4>
+                                            <p>Embrace individuality and stand out in the crowd. I'll help you be different
+                                                and distinct in a sea of sameness.</p>
                                         </div>
                                     </div>
                                     <div class="research__item">
-                                        <div class="research__number">
-                                            <span>95%</span>
+                                        <div class="research__number"
+                                            style="width: 60px; height: 60px; border-radius: 50%; overflow: hidden; display: flex; align-items: center; justify-content: center; background-color: white; border: 2px solid #f0f0f0;">
+                                            <span>
+                                                <img src="images/hub.svg" alt="Hub of Teens logo"
+                                                    style="width: 100%; height: auto; display: block;">
+                                            </span>
                                         </div>
                                         <div class="research__info">
-                                            <h4 class="research__title">Enthusiastic</h4>
-                                            <p>Embrace a passion for excellence in all I do. I'm
-                                                deeply in love with delivering world-class digital solutions.</p>
+                                            <h4 class="research__title"
+                                                style="margin: 0; color: #333; text-decoration: none;">
+                                                <a href="https://hubofteens.shop/" target="_blank"
+                                                    style="color: inherit; text-decoration: none;">Hub of Teens</a>
+                                            </h4>
+                                            <p>Embrace a passion for excellence in all I do. I'm deeply in love with
+                                                delivering world-class digital solutions.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -515,12 +552,13 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="counter__area-3 wf_panel">
                     <div class="container">
                         <div class="row">
                             <div class="col-xxl-12">
                                 <div class="sec-title-wrapper">
-                                    <h2 class="sec-sub-title">Why <br>Choose me </h2>
+                                    <h2 class="sec-sub-title">Information is Power, <br>Empower Your Journey</h2>
                                 </div>
                             </div>
                         </div>
@@ -528,20 +566,28 @@
                             <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
                                 <div class="counter__wrapper-3">
                                     <div class="counter__item-3">
-                                        <h2 class="counter__number">457</h2>
-                                        <p>Project <br>completed </p>
+                                        <h2 style="color:white;">Understanding Market Trends</h2>
+                                        <p>Discover how to stay ahead in a rapidly changing market. Read my latest thoughts
+                                            on adapting to trends and leveraging them for success.</p>
+                                        <a href="#" class="read-more">Read More</a>
                                     </div>
                                     <div class="counter__item-3">
-                                        <h2 class="counter__number">46</h2>
-                                        <p>Happy <br>customers </p>
+                                        <h2 style="color:white;">Strategies for Client Success</h2>
+                                        <p>Learn the strategies that foster lasting client relationships and drive
+                                            satisfaction. Explore the key elements of effective communication.</p>
+                                        <a href="#" class="read-more">Read More</a>
                                     </div>
                                     <div class="counter__item-3">
-                                        <h2 class="counter__number">2</h2>
-                                        <p>Years <br>experiences </p>
+                                        <h2 style="color:white;">Innovative Solutions for Modern Challenges</h2>
+                                        <p>Explore innovative approaches to solving today’s challenges. I share insights
+                                            into creative problem-solving techniques that yield results.</p>
+                                        <a href="#" class="read-more">Read More</a>
                                     </div>
                                     <div class="counter__item-3">
-                                        <h2 class="counter__number">8</h2>
-                                        <p>Awards <br>achievement </p>
+                                        <h2 style="color:white;">Innovative Solutions for Modern Challenges</h2>
+                                        <p>Explore innovative approaches to solving today’s challenges. I share insights
+                                            into creative problem-solving techniques that yield results.</p>
+                                        <a href="#" class="read-more">Read More</a>
                                     </div>
                                 </div>
                             </div>
@@ -551,6 +597,7 @@
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
                 <div class="cta__area-3 wf_panel">
@@ -598,7 +645,8 @@
                                     <div id="collapseOne" class="accordion-collapse collapse show"
                                         aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <p>Partnering with you to bring your digital vision to life.I immerse myself in your business to craft meaningful
+                                            <p>Partnering with you to bring your digital vision to life.I immerse myself in
+                                                your business to craft meaningful
                                                 experiences, drive innovation through experimentation, and bring your ideas
                                                 to market faster. My expertise in cutting-edge connected devices and IoT
                                                 technologies, such as Telematics and wearables accelerates your journey

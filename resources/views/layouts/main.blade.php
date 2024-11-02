@@ -60,11 +60,6 @@
 
 <body class="dark">
     <!-- Google Tag Manager (noscript) -->
-    <noscript> <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7XNGQW"height="0" width="0"
-            style="display:none;visibility:hidden"></iframe> </noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    <script async src="https://cse.google.com/cse.js?cx=8254766fa29a84621">
-    </script>
     <div class="gcse-search"></div>
     <!-- Cursor Animation -->
     <div class="cursor1"></div>
