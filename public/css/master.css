@@ -7200,10 +7200,9 @@ img {
     }
 }
 
-/* Hide the hero image on screens smaller than 768px */
 @media only screen and (max-width: 767px) {
     .hero__area-3 .hero3-img {
-        display: none; /* Hides the image */
+        display: none !important;
     }
 }
 
