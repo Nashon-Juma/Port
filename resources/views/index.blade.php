@@ -40,9 +40,11 @@
                                 </div> --}}
                 </div>
             </div>
-            <div id="hero-img-container">
-                <img src="images/hero-img.jpg" alt="Hero Image" class="hero3-img">
-            </div>
+            @if (!isset($_COOKIE['show_hero_image']) || $_COOKIE['show_hero_image'] === 'true')
+                <div id="hero-img-container">
+                    <img src="images/hero-img.jpg" alt="Hero Image" class="hero3-img">
+                </div>
+            @endif
         </section>
 
         {{--
@@ -761,20 +763,13 @@
 
     </main>
     <!--================End Main Content Area =================-->
-@endsection
 
-<script>
-    function toggleImageVisibility() {
-        const imgContainer = document.getElementById("hero-img-container");
-
-        if (window.innerWidth >= 768) {
-            imgContainer.style.display = "none"; // Hide on large screens
+    <script>
+        // Check screen width and set a cookie
+        if (window.innerWidth > 768) {
+            document.cookie = "show_hero_image=true";
         } else {
-            imgContainer.style.display = "block"; // Show on small screens
+            document.cookie = "show_hero_image=false";
         }
-    }
-
-    toggleImageVisibility();
-
-    window.addEventListener("resize", toggleImageVisibility);
-</script>
+    </script>
+@endsection
