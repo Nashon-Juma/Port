@@ -472,7 +472,7 @@
                         <div class="row">
                             <div class="col-xxl-6 col-xl-6 col-lg-6">
                                 <div class="sec-title-wrapper">
-                                    <h2 class="sec-sub-title">Transforming Visions into Impact</h2>
+                                    <h2 class="sec-sub-title">Some of the Brands I've worked with</h2>
                                     <h3 class="sec-title">Empowered by Client Success Stories</h3>
                                     <p>Partnering with diverse brands, I blend strategy, creativity, and technical know-how
                                         to craft standout digital solutions. My focus on collaboration ensures that every
@@ -505,7 +505,11 @@
                                             <h4 class="research__title"
                                                 style="margin: 0; color: #333; text-decoration: none;">
                                                 <a href="https://www.lidonation.com/" target="_blank"
-                                                    style="color: inherit; text-decoration: none;">Lido Nation</a>
+                                                    style="color: #fff; text-decoration: none;">
+                                                    Lido Nation
+                                                    <i class="fas fa-external-link-alt"
+                                                        style="margin-left: 5px; color: #333;"></i>
+                                                </a>
                                             </h4>
                                             <p>Transform your digital presence with the power of the extraordinary. I always
                                                 bring the 'WOW' factor to every project due to my lasting impression.</p>
@@ -523,7 +527,11 @@
                                             <h4 class="research__title"
                                                 style="margin: 0; color: #333; text-decoration: none;">
                                                 <a href="https://ngongroad.org/" target="_blank"
-                                                    style="color: inherit; text-decoration: none;">NgongRoad Foundation</a>
+                                                    style="color: #fff; text-decoration: none;">
+                                                    NgongRoad Foundation
+                                                    <i class="fas fa-external-link-alt"
+                                                        style="margin-left: 5px; color: #333;"></i>
+                                                </a>
                                             </h4>
                                             <p>Embrace individuality and stand out in the crowd. I'll help you be different
                                                 and distinct in a sea of sameness.</p>
@@ -541,7 +549,11 @@
                                             <h4 class="research__title"
                                                 style="margin: 0; color: #333; text-decoration: none;">
                                                 <a href="https://hubofteens.shop/" target="_blank"
-                                                    style="color: inherit; text-decoration: none;">Hub of Teens</a>
+                                                    style="color: #fff; text-decoration: none;">
+                                                    Hub of Teens
+                                                    <i class="fas fa-external-link-alt"
+                                                        style="margin-left: 5px; color: #333;"></i>
+                                                </a>
                                             </h4>
                                             <p>Embrace a passion for excellence in all I do. I'm deeply in love with
                                                 delivering world-class digital solutions.</p>
@@ -550,54 +562,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-
-                <div class="counter__area-3 wf_panel">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xxl-12">
-                                <div class="sec-title-wrapper">
-                                    <h2 class="sec-sub-title">Information is Power, <br>Empower Your Journey</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
-                                <div class="counter__wrapper-3">
-                                    <div class="counter__item-3">
-                                        <h2 style="color:white;">Understanding Market Trends</h2>
-                                        <p>Discover how to stay ahead in a rapidly changing market. Read my latest thoughts
-                                            on adapting to trends and leveraging them for success.</p>
-                                        <a href="#" class="read-more">Read More</a>
-                                    </div>
-                                    <div class="counter__item-3">
-                                        <h2 style="color:white;">Strategies for Client Success</h2>
-                                        <p>Learn the strategies that foster lasting client relationships and drive
-                                            satisfaction. Explore the key elements of effective communication.</p>
-                                        <a href="#" class="read-more">Read More</a>
-                                    </div>
-                                    <div class="counter__item-3">
-                                        <h2 style="color:white;">Innovative Solutions for Modern Challenges</h2>
-                                        <p>Explore innovative approaches to solving today’s challenges. I share insights
-                                            into creative problem-solving techniques that yield results.</p>
-                                        <a href="#" class="read-more">Read More</a>
-                                    </div>
-                                    <div class="counter__item-3">
-                                        <h2 style="color:white;">Innovative Solutions for Modern Challenges</h2>
-                                        <p>Explore innovative approaches to solving today’s challenges. I share insights
-                                            into creative problem-solving techniques that yield results.</p>
-                                        <a href="#" class="read-more">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
-                                <div class="counter__img-3">
-                                    <img src="images/counter-3.png" alt="Counter Image">
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
                 <div class="cta__area-3 wf_panel">

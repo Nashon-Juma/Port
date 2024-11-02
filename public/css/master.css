@@ -7169,11 +7169,11 @@ img {
     background-repeat: no-repeat;
     background-position: right top;
 }
-
 .hero__area-3 .hero3-img {
     position: absolute;
     bottom: 0;
     right: 0;
+    display: block; /* Show the image by default */
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1919px) {
@@ -7200,9 +7200,10 @@ img {
     }
 }
 
+/* Hide the hero image on screens smaller than 768px */
 @media only screen and (max-width: 767px) {
     .hero__area-3 .hero3-img {
-        position: unset;
+        display: none; /* Hides the image */
     }
 }
 
