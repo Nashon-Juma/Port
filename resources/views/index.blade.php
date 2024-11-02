@@ -40,7 +40,9 @@
                                 </div> --}}
                 </div>
             </div>
-            <img src="images/hero-img.jpg" alt="Hero Image" class="hero3-img">
+            <div style="display: block; @media (min-width: 768px) { display: none; }">
+                <img src="images/hero-img.jpg" alt="Hero Image" class="hero3-img">
+            </div>
         </section>
 
         {{--
@@ -511,9 +513,11 @@
                                                         style="margin-left: 5px; color: #b5b5b5;"></i>
                                                 </a>
                                             </h4>
-                                            <p>Empowering the next generation through blockchain technology and education, <br>
+                                            <p>Empowering the next generation through blockchain technology and education,
+                                                <br>
                                                 I'm currently working full-time with Lido Nation to improve this innovative
-                                                platform that bridges learning and digital finance.</p>
+                                                platform that bridges learning and digital finance.
+                                            </p>
                                         </div>
                                     </div>
                                     <div class="research__item">
@@ -555,7 +559,8 @@
                                                         style="margin-left: 5px; color: #b5b5b5;"></i>
                                                 </a>
                                             </h4>
-                                            <p>I crafted a vibrant eCommerce platform for Hub of Teens, making wellness accessible to
+                                            <p>I crafted a vibrant eCommerce platform for Hub of Teens, making wellness
+                                                accessible to
                                                 all.</p>
                                         </div>
                                     </div>
@@ -614,7 +619,7 @@
                                                 to market faster. My expertise in cutting-edge connected devices and IoT
                                                 technologies, such as Telematics and wearables accelerates your journey
                                                 into the digital realm.</p>
-                                                <a href="#">READ MORE</a>
+                                            <a href="#">READ MORE</a>
                                         </div>
                                     </div>
                                 </div>
@@ -633,7 +638,7 @@
                                                 30% or more. With my expertise in cloud integrations, enterprise mobility,
                                                 and data-driven insights, I empower your business to take
                                                 full advantage of the digital frontier.</p>
-                                                <a href="#">READ MORE</a>
+                                            <a href="#">READ MORE</a>
                                         </div>
                                     </div>
                                 </div>
@@ -652,7 +657,7 @@
                                                 continuous delivery to bring the excitement back to testing. With automation
                                                 serving as the backbone of modernization, you can embrace change with
                                                 confidence, free from the fear of regression.</p>
-                                                <a href="#">READ MORE</a>
+                                            <a href="#">READ MORE</a>
                                         </div>
                                     </div>
                                 </div>
@@ -672,7 +677,7 @@
                                                 the art of creating a seamless and impactful online presence that reaches my
                                                 target audience through every paid, owned and earned media channel, no
                                                 matter where they are located.</p>
-                                                <a href="#">READ MORE</a>
+                                            <a href="#">READ MORE</a>
                                         </div>
                                     </div>
                                 </div>
