@@ -503,7 +503,7 @@
                                         </div>
                                         <div class="research__info">
                                             <h4 class="research__title"
-                                                style="margin: 0; color: #333; text-decoration: none;">
+                                                style="margin: 0; color: #fff; text-decoration: none;">
                                                 <a href="https://www.lidonation.com/" target="_blank"
                                                     class="research-link">
                                                     Lido Nation
@@ -526,7 +526,7 @@
                                         </div>
                                         <div class="research__info">
                                             <h4 class="research__title"
-                                                style="margin: 0; color: #333; text-decoration: none;">
+                                                style="margin: 0; color: #fff; text-decoration: none;">
                                                 <a href="https://ngongroad.org/" target="_blank" class="research-link">
                                                     NgongRoad Foundation
                                                     <i class="fas fa-external-link-alt"
@@ -548,7 +548,7 @@
                                         </div>
                                         <div class="research__info">
                                             <h4 class="research__title"
-                                                style="margin: 0; color: #333; text-decoration: none;">
+                                                style="margin: 0; color: #fff; text-decoration: none;">
                                                 <a href="https://hubofteens.shop/" target="_blank" class="research-link">
                                                     Hub of Teens
                                                     <i class="fas fa-external-link-alt"
