@@ -40,7 +40,7 @@
                                 </div> --}}
                 </div>
             </div>
-            <div style="display: block; @media (min-width: 768px) { display: none; }">
+            <div id="hero-img-container">
                 <img src="images/hero-img.jpg" alt="Hero Image" class="hero3-img">
             </div>
         </section>
@@ -762,3 +762,19 @@
     </main>
     <!--================End Main Content Area =================-->
 @endsection
+
+<script>
+    function toggleImageVisibility() {
+        const imgContainer = document.getElementById("hero-img-container");
+
+        if (window.innerWidth >= 768) {
+            imgContainer.style.display = "none"; // Hide on large screens
+        } else {
+            imgContainer.style.display = "block"; // Show on small screens
+        }
+    }
+
+    toggleImageVisibility();
+
+    window.addEventListener("resize", toggleImageVisibility);
+</script>
