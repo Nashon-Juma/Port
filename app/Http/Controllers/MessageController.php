@@ -15,7 +15,7 @@ class MessageController extends Controller
         $validator = Validator::make($request->all(), [
             'name' => 'required|string|max:60',
             'email' => 'nullable|email|max:60',
-            'phone' => 'nullable',
+            'phone' => 'nullable|max:20',
             'subject' => 'required|max:225',
             'message' => 'required|max:2000',
 

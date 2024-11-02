@@ -7301,19 +7301,19 @@ img {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .hero__area-3 .sec-title {
-        font-size: 180px;
+        font-size: 120px;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .hero__area-3 .sec-title {
-        font-size: 130px;
+        font-size: 90px;
     }
 }
 
 @media only screen and (max-width: 767px) {
     .hero__area-3 .sec-title {
-        font-size: 90px;
+        font-size: 60px;
     }
 }
 
@@ -21837,7 +21837,7 @@ img {
 }
 
 .showcase__top-16 .title-right p {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .showcase__content-16 a {
