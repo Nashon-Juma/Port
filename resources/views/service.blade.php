@@ -68,41 +68,39 @@
                                 <div>
                                     <img src="images/s.png" alt="Service Icon">
                                     <h3 class="service__title-7">
-                                        <span>1. Strategy</span>
+                                        <span>1. Backend Strategy</span>
                                     </h3>
-                                    <p>Crafting innovative solutions to drive business success through
-                                        insightful strategy. </p>
+                                    <p>Defining backend strategies to improve scalability, security, and efficiency.
+                                    </p>
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <ul class="">
+                                                {{-- <li>
+                                                    <img src="images/strategy-01.svg">Database Design & Optimization
+                                                </li> --}}
                                                 <li>
-                                                    <img src="images/strategy-01.svg">Market &
-                                                    Competitive Research
+                                                    <img src="images/strategy-02.svg">API Lifecycle Management (Design,
+                                                    Documentation, and Testing)
                                                 </li>
                                                 <li>
-                                                    <img src="images/strategy-02.svg">Marketing
-                                                    Strategy
-                                                </li>
-                                                <li>
-                                                    <img src="images/strategy-03.svg">CRM &
-                                                    Sales Funnel Strategy
+                                                    <img src="images/strategy-03.svg">Scalability and Load Testing Strategy
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="col-lg-6">
                                             <ul class="services__secBlock">
                                                 <li>
-                                                    <img src="images/strategy-04.svg">Brand
-                                                    Positioning & Messaging
+                                                    <img src="images/strategy-04.svg">Performance Monitoring & Scaling
+                                                    Strategies
                                                 </li>
                                                 <li>
-                                                    <img src="images/strategy-05.svg">UX
-                                                    Consulting
+                                                    <img src="images/strategy-05.svg">Deployment Strategy and CI/CD
+                                                    Integration
+
                                                 </li>
-                                                <li>
-                                                    <img src="images/strategy-06.svg">Process
-                                                    Automation
-                                                </li>
+                                                {{-- <li>
+                                                    <img src="images/strategy-06.svg">Security and Compliance
+                                                </li> --}}
                                             </ul>
                                         </div>
                                     </div>
@@ -112,41 +110,39 @@
                                 <div>
                                     <img src="images/d.png" alt="Service Icon">
                                     <h3 class="service__title-7">
-                                        <span>2. Design</span>
+                                        <span>2. Backend Development</span>
                                     </h3>
-                                    <p>Crafting visually impactful and user-centered solutions for
-                                        optimal brand experience. </p>
+                                    <<p>Building robust, maintainable backend systems to power applications and deliver
+                                        seamless experiences.
+                                    </p>
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <ul class="">
-                                                <li>
-                                                    <img src="images/design-01.svg">User Testing
-                                                    & Personas
-                                                </li>
-                                                <li>
-                                                    <img src="images/design-02.svg">Wireframing
-                                                    & Prototyping
-                                                </li>
-                                                <li>
-                                                    <img src="images/design-03.svg">Data-Informed
-                                                    UX Design
-                                                </li>
+                                                    <li>
+                                                        <img src="images/design-01.svg">RESTful API Development
+                                                    </li>
+                                                    <li>
+                                                        <img src="images/design-02.svg">Automated Testing & Test-Driven
+                                                        Development (TDD)
+                                                    </li>
+                                                    <li>
+                                                        <img src="images/design-03.svg">Database Management (MySQL, PostgreSQL,
+                                                        MongoDB)
+                                                    </li>
                                             </ul>
                                         </div>
                                         <div class="col-lg-6">
                                             <ul class="services__secBlock">
                                                 <li>
-                                                    <img src="images/design-04.svg">Design
-                                                    Thinking Workshops
+                                                    <img src="images/design-04.svg">Authentication & Authorization (OAuth,
+                                                    JWT, Session-Based)
+                                                </li>
+                                                {{-- <li>
+                                                    <img src="images/design-05.svg">Caching Strategies (Redis, Memcached)
                                                 </li>
                                                 <li>
-                                                    <img src="images/design-05.svg">UI &
-                                                    Interaction Design
-                                                </li>
-                                                <li>
-                                                    <img src="images/design-06.svg">Graphic
-                                                    Design & Animation
-                                                </li>
+                                                    <img src="images/design-06.svg">Cloud Functions & Serverless Architecture
+                                                </li> --}}
                                             </ul>
                                         </div>
                                     </div>
@@ -156,39 +152,37 @@
                                 <div>
                                     <img src="images/e.png" alt="Service Icon">
                                     <h3 class="service__title-7">
-                                        <span>3. Engineering</span>
+                                        <span>3. Integration & Automation</span>
                                     </h3>
-                                    <p>Building efficient, cutting-edge technology solutions to power
-                                        your business forward. </p>
+                                    <p>Ensuring smooth interconnectivity between platforms and streamlining processes for
+                                        efficiency.
+                                    </p>
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <ul class="">
+                                                {{-- <li>
+                                                    <img src="images/engineering-01.svg">Data Synchronization Across Platforms
+                                                </li> --}}
                                                 <li>
-                                                    <img src="images/engineering-01.svg">WordPress,
-                                                    Drupal & Laravel
+                                                    <img src="images/engineering-02.svg">Third-Party API Integration
+                                                    (Payment Gateways, Social Media, etc.)
                                                 </li>
                                                 <li>
-                                                    <img src="images/engineering-02.svg">Platform
-                                                    & Data Migration
-                                                </li>
-                                                <li>
-                                                    <img src="images/engineering-03.svg">eCommerce
+                                                    <img src="images/engineering-03.svg">Data Pipelines and ETL Processes
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="col-lg-6">
                                             <ul class="services__secBlock">
                                                 <li>
-                                                    <img src="images/engineering-04.svg">Website
-                                                    Maintenance & Hosting
+                                                    <img src="images/engineering-04.svg">Message Queues (RabbitMQ, Kafka)
                                                 </li>
                                                 <li>
-                                                    <img src="images/engineering-05.svg">Custom
-                                                    API Integration
+                                                    <img src="images/engineering-05.svg">Workflow Automation (Scripting,
+                                                    Cron Jobs)
                                                 </li>
                                                 <li>
-                                                    <img src="images/engineering-06.svg">CRM and
-                                                    other middleware
+                                                    <img src="images/engineering-06.svg">CRM and ERP Integration
                                                 </li>
                                             </ul>
                                         </div>
@@ -199,45 +193,31 @@
                                 <div>
                                     <img src="images/m.png" alt="Service Icon">
                                     <h3 class="service__title-7">
-                                        <span>4. Marketing</span>
+                                        <span>4.Data Management & Analytics</span>
                                     </h3>
-                                    <p>Elevating brand awareness and driving customer engagement through
-                                        innovative marketing tactics. </p>
+                                    <p>Optimizing data handling and implementing insights-driven solutions for improved
+                                        decision-making. </p>
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <ul class="">
                                                 <li>
-                                                    <img src="images/marketing-01.svg">Marketing
-                                                    Personas
+                                                    <img src="images/marketing-01.svg">Database Administration &
+                                                    Maintenance
                                                 </li>
                                                 <li>
-                                                    <img src="images/marketing-02.svg">Lead
-                                                    Acquisition & Nurturing
+                                                    <img src="images/marketing-02.svg">Data Migration & Backup Strategies
                                                 </li>
                                                 <li>
-                                                    <img src="images/marketing-03.svg">Brand
-                                                    Messaging
+                                                    <img src="images/marketing-03.svg">Logging & Error Monitoring
                                                 </li>
                                                 <li>
-                                                    <img src="images/marketing-04.svg">Media
-                                                    Strategy & Management
+                                                    <img src="images/marketing-04.svg">Analytics & Reporting Setup
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="col-lg-6">
                                             <ul class="services__secBlock">
-                                                <li>
-                                                    <img src="images/marketing-05.svg">Digital
-                                                    Marketing Campaigns
-                                                </li>
-                                                <li>
-                                                    <img src="images/marketing-06.svg">CRM
-                                                    Management
-                                                </li>
-                                                <li>
-                                                    <img src="images/marketing-07.svg">Content
-                                                    Creation
-                                                </li>
+
                                             </ul>
                                         </div>
                                     </div>
@@ -268,7 +248,7 @@
                                         <a href="#service_4">Mobile App <br> Development </a>
                                     </li>
                                     <li>
-                                        <a href="#service_5">QA </a>
+                                        <a href="#service_5">Testing </a>
                                     </li>
                                     <li>
                                         <a href="#service_6">Cloud </a>
@@ -416,7 +396,7 @@
                                             <img src="images/services-05.jpg" alt="Service Image">
                                         </div>
                                         <div>
-                                            <h2 class="service__title-6 title-anim">QA </h2>
+                                            <h2 class="service__title-6 title-anim">Testing </h2>
                                             <p>Automation Testing</p>
                                             <h3 class="services__subTitle title-anim">Software Testing
                                             </h3>
