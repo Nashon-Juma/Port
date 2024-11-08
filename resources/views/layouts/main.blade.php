@@ -101,9 +101,9 @@
                     <li>
                         <a href="about">about</a>
                     </li>
-                    <li>
+                    {{-- <li>
                         <a href="services">services</a>
-                    </li>
+                    </li> --}}
                     <li>
                         <a href="contact">contact</a>
                     </li>
@@ -157,9 +157,9 @@
                             <li>
                                 <a href="about">about</a>
                             </li>
-                            <li>
+                            {{-- <li>
                                 <a href="services">services</a>
-                            </li>
+                            </li> --}}
                             <li>
                                 <a href="contact">contact</a>
                             </li>
@@ -283,9 +283,9 @@
                                         <li>
                                             <a href="about">about</a>
                                         </li>
-                                        <li>
+                                        {{-- <li>
                                             <a href="services">services</a>
-                                        </li>
+                                        </li> --}}
                                         <li>
                                             <a href="contact">contact</a>
                                         </li>

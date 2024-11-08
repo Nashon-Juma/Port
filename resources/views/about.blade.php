@@ -83,7 +83,7 @@
                 </div>
             </div>
         </section>
-        <section class="counter__area">
+        {{-- <section class="counter__area">
             <div class="container g-0 line pb-140 pt-140">
                 <span class="line-3"></span>
                 <div class="row">
@@ -113,8 +113,8 @@
                     </div>
                 </div>
             </div>
-        </section>
-    
+        </section> --}}
+
         <section class="brand__area">
             <div class="container g-0 line pt-140 pb-140">
                 <span class="line-3"></span>
