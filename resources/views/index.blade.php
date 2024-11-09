@@ -600,7 +600,7 @@
                                 <h2 class="cta__title-2">Let’s make something great together!</h2>
                                 <div class="btn_wrapper">
                                     <a href="contact" class="wc-btn-black btn-hover btn-item">
-                                        <span></span>Reach <br> Out<i class="fa-solid fa-arrow-right"></i>
+                                        <span></span>Book a <br>Free Session<i class="fa-solid fa-arrow-right"></i>
                                     </a>
                                 </div>
                             </div>
