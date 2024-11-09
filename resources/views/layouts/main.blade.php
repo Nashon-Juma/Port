@@ -89,7 +89,7 @@
                 <a href="/" class="logo-dark">
                     <img src="images/logo-black.png" alt="Site Logo">
                 </a>
-                <a href="/" target="_blank" class="logo-light">{{-- NJ logo --}}
+                <a href="/" class="logo-light">{{-- NJ logo --}}
                     <img src="images/site-logo-white.png" alt="Logo">
                 </a>
             </div>
