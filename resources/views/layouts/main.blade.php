@@ -89,8 +89,8 @@
                 <a href="/" class="logo-dark">
                     <img src="images/logo-black.png" alt="Site Logo">
                 </a>
-                <a href="https://techmates.team" target="_blank" class="logo-light">{{-- NJ logo --}}
-                    <img src="images/site-logo-white-2.png" alt="Logo">
+                <a href="/" target="_blank" class="logo-light">{{-- NJ logo --}}
+                    <img src="images/site-logo-white.png" alt="Logo">
                 </a>
             </div>
             <div class="header__nav-2">
@@ -121,8 +121,8 @@
         <div class="offcanvas__body">
             <div class="offcanvas__left">
                 <div class="offcanvas__logo">
-                    <a href="index">
-                        <img src="images/site-logo-white-2.png" alt="Offcanvas Logo">
+                    <a href="/">
+                        <img src="images/site-logo-white.png" alt="Offcanvas Logo">
                     </a>
                 </div>
                 <div class="offcanvas__social">
@@ -240,7 +240,7 @@
                 <div class="footer__top-3">
                     <div class="footer__top-wrapper-3">
                         <div class="footer__logo-3 pt-120">
-                            <img src="images/site-logo-white-2.png" alt="Footer Logo">
+                            <img src="images/site-logo-white.png" alt="Footer Logo">
                             <p>I elevate brands across the globe with game-changing impact. I work with organizations
                                 and companies of all sizes, in every moment of their growth</p>
                         </div>
