@@ -21,7 +21,7 @@ return new class extends Migration
             $table->string('info')->nullable();
             $table->string('about')->nullable();
             $table->string('description')->nullable();
-            $table->foreignId('role_id')->default(1);
+            $table->foreignId('role_id')->default(0);
             $table->timestamps();
         });
     }
