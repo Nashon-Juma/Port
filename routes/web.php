@@ -5,6 +5,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\OrderController;
 use App\Http\Controllers\MessageController;
 
+use Illuminate\Support\Facades\Auth;
+use App\Models\User;
+
 
 Route::get('/', function () {
     return view('index');
