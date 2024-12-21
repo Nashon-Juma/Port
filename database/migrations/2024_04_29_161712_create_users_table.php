@@ -15,13 +15,13 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('email')->unique();
-            $table->string('image');
+            $table->string('image')->nullable();
             $table->string('password');
             $table->string('remember_token')->nullable();
-            $table->string('info');
-            $table->string('about');
-            $table->string('description');
-            $table->foreignId('role_id');
+            $table->string('info')->nullable();
+            $table->string('about')->nullable();
+            $table->string('description')->nullable();
+            $table->foreignId('role_id')->default(1);
             $table->timestamps();
         });
     }

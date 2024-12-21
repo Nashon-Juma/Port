@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 // use Illuminate\Support\Facades\Gate;
+use Filament\Facades\Filament;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 
 class AuthServiceProvider extends ServiceProvider
@@ -16,11 +17,18 @@ class AuthServiceProvider extends ServiceProvider
         //
     ];
 
+
     /**
      * Register any authentication / authorization services.
      */
     public function boot(): void
     {
-        //
+        Filament::serving(function () {
+            Filament::registerNavigationGroups([
+                'Dashboard',
+                'Projects',
+                'Finance',
+            ]);
+        });
     }
 }

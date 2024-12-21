@@ -39,3 +39,7 @@ Route::get('/ui-ux-design', function () {
 Route::get('/ui-ux-in-health-domain', function () {
     return view('extras.ui-ux-in-health-domain');
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

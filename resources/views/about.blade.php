@@ -28,6 +28,7 @@
                         </div>
                     </div>
                 </div>
+                
                 <div class="row hero__about-row">
                     <div class="col-xxl-12">
                         <div class="hero__about-video">
