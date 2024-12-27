@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('financial_insights', function (Blueprint $table) {
+        Schema::create('return_of_investments', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
         });
@@ -22,6 +22,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('financial_insights');
+        Schema::dropIfExists('return_of_investments');
     }
 };

@@ -4,7 +4,7 @@ namespace App\Filament\Resources;
 
 use App\Filament\Resources\ReturnOfInvestmentResource\Pages;
 use App\Filament\Resources\ReturnOfInvestmentResource\RelationManagers;
-use App\Models\ReturnOfInvestment;
+use App\Models\RIO;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
@@ -15,8 +15,7 @@ use Illuminate\Database\Eloquent\SoftDeletingScope;
 
 class ReturnOfInvestmentResource extends Resource
 {
-    protected static ?string $model = ReturnOfInvestment::class;
-
+    protected static ?string $model = RIO::class;
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
     public static function form(Form $form): Form

@@ -4,7 +4,7 @@ namespace App\Filament\Resources;
 
 use App\Filament\Resources\HabitTrackerResource\Pages;
 use App\Filament\Resources\HabitTrackerResource\RelationManagers;
-use App\Models\HabitTracker;
+use App\Models\Habit;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
@@ -15,7 +15,7 @@ use Illuminate\Database\Eloquent\SoftDeletingScope;
 
 class HabitTrackerResource extends Resource
 {
-    protected static ?string $model = HabitTracker::class;
+    protected static ?string $model = Habit::class; 
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
