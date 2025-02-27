@@ -39,6 +39,10 @@ Route::get('/ui-ux-design', function () {
     return view('extras.ui-ux-design');
 });
 
+Route::get('post/{slug}', function () {
+    return view('extras.ui-ux-design');
+});
+
 Route::get('/ui-ux-in-health-domain', function () {
     return view('extras.ui-ux-in-health-domain');
 });
