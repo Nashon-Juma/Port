@@ -76,7 +76,7 @@
                             <p class="cta__sub-title">Lets Work together</p>
                             <h2 class="cta__title title-anim">I would love to hear more about your project</h2>
                             <div class="btn_wrapper">
-                                <a href="contact" class="wc-btn-primary btn-item btn-hover">
+                                <a href="/zungumza" class="wc-btn-primary btn-item btn-hover">
                                     <span></span>Book Free Session<i class="fa-solid fa-arrow-right"></i>
                                 </a>
                             </div>

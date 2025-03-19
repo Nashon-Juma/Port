@@ -12,7 +12,7 @@
                             <div class="hero__about-info">
                                 <div class="hero__about-btn">
                                     <div class="btn_wrapper">
-                                        <a href="/contact" target="_blank" class="wc-btn-primary btn-hover btn-item">
+                                        <a href="/zungumza" target="_blank" class="wc-btn-primary btn-hover btn-item">
                                             <span></span> Book  A<br> Free Session<i class="fa-solid fa-arrow-right"></i>
                                         </a>
                                     </div>
@@ -71,7 +71,7 @@
                     </div>
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                         <div class="story__img-wrapper img-anim">
-                            <img src="images/story2.jpg" alt="Story Thumbnail" data-speed="auto">
+                            <img src="images/story22.jpg" alt="Story Thumbnail" data-speed="auto">
                         </div>
                     </div>
                     <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
@@ -157,7 +157,7 @@
                             <h2 class="cta__title title-anim">I would love to hear more about your
                                 project</h2>
                             <div class="btn_wrapper">
-                                <a href="contact" class="wc-btn-primary btn-hover btn-item">
+                                <a href="zungumza" class="wc-btn-primary btn-hover btn-item">
                                     <span></span>Let us talk <i class="fa-solid fa-arrow-right"></i>
                                 </a>
                             </div>

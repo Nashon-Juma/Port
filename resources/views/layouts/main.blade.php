@@ -105,7 +105,7 @@
                         <a href="services">services</a>
                     </li> --}}
                     <li>
-                        <a href="contact">contact</a>
+                        <a href="zungumza">contact</a>
                     </li>
                 </ul>
             </div>
@@ -161,7 +161,7 @@
                                 <a href="services">services</a>
                             </li> --}}
                             <li>
-                                <a href="contact">contact</a>
+                                <a href="/zungumza">contact</a>
                             </li>
                         </ul>
                     </nav>
@@ -262,7 +262,7 @@
                             </ul>
                         </div>
                         <div class="footer__contact-3">
-                            <a class="end" href="contact">Let’s talk</a>
+                            <a class="end" href="/zungumza">Let’s talk</a>
                         </div>
                     </div>
                 </div>
@@ -287,7 +287,7 @@
                                             <a href="services">services</a>
                                         </li> --}}
                                         <li>
-                                            <a href="contact">contact</a>
+                                            <a href="/zungumza">contact</a>
                                         </li>
                                     </ul>
                                 </div>

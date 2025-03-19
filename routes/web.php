@@ -25,7 +25,7 @@ Route::get('/services', function () {
     return view('service');
 });
 
-Route::get('/contact', function () {
+Route::get('/zungumza', function () {
     return view('contact');
 });
 
