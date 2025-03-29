@@ -143,8 +143,10 @@
                                 </div>
                             </div>
 
-                            {!! NoCaptcha::renderJs() !!}
-                            {!! NoCaptcha::display(['data-theme' => 'dark']) !!}
+                            <x-honeypot />
+
+                            {{-- {!! NoCaptcha::renderJs() !!}
+                            {!! NoCaptcha::display(['data-theme' => 'dark']) !!} --}}
 
                             <input type="hidden" id="latitude" name="latitude">
                             <input type="hidden" id="longitude" name="longitude">

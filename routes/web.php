@@ -1,12 +1,11 @@
 <?php
 
-use App\Http\Controllers\Users;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use Spatie\Honeypot\ProtectAgainstSpam;
+
 use App\Http\Controllers\OrderController;
 use App\Http\Controllers\MessageController;
-
-use Illuminate\Support\Facades\Auth;
-use App\Models\User;
 
 
 Route::get('/', function () {
@@ -29,7 +28,7 @@ Route::get('/zungumza', function () {
     return view('contact');
 });
 
-Route::post('/send-message', [MessageController::class, 'sendMessage'])->name('send.message');
+Route::post('/send-message', [MessageController::class, 'sendMessage'])->middleware(ProtectAgainstSpam::class)->name('send.message');
 
 Route::get('/pillars-and-steps-of-ux-research', function () {
     return view('extras.pillars-and-steps-of-ux-research');
@@ -47,6 +46,8 @@ Route::get('/ui-ux-in-health-domain', function () {
     return view('extras.ui-ux-in-health-domain');
 });
 
-Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
+Auth::routes();
