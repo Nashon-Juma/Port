@@ -10,7 +10,6 @@ Mambo Nashon "CONTACT-FORM :: PORTFOLIO"
 | **Subject**      | {{ $data['subject'] ?? 'N/A' }}                |
 | **Email**        | {{ $data['email'] ?? 'N/A' }}                  |
 | **Phone**        | {{ $data['phone'] ?? 'N/A' }}                  |
-
 | **IP Address**   | {{ $data['ip'] ?? 'N/A' }}                     |
 | **Location**     | {{ $data['city'] ?? '' }}, {{ $data['region'] ?? '' }}, {{ $data['country'] ?? 'N/A' }} |
 | **Organization** | {{ $data['org'] ?? 'N/A' }}                    |

@@ -54,6 +54,10 @@
   gtag('config', 'G-PE9W5YQ4H8');
 </script>
 
+{{-- reCAPTCHA --}}
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+
 </head>
 
 
