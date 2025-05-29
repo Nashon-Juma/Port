@@ -111,7 +111,7 @@
                                 unlock new possibilities
                                 for your business, side by side.</p>
                             <div class="btn_wrapper">
-                                <a href="./Profile.pdf" target="_blank" class="wc-btn-light btn-hover btn-item">
+                                <a href="./nashonjumaresume.pdf" target="_blank" class="wc-btn-light btn-hover btn-item">
                                     <span></span> View My Resume <i class="fa-solid fa-arrow-right"></i>
                                 </a>
                             </div>
