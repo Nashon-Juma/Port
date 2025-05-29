@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('incomes', function (Blueprint $table) {
             $table->id();
+            $table->string('source'); // Source of income
+            $table->decimal('amount', 10, 2); // Amount of income
+            $table->date('date_received'); // Date income was received
+            $table->string('category')->nullable(); // Category of income (e.g., salary, freelance, etc.)
+            $table->text('notes')->nullable(); // Additional notes about the income
             $table->timestamps();
         });
     }

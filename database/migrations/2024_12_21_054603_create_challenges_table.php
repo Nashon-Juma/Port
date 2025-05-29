@@ -13,6 +13,12 @@ return new class extends Migration
     {
         Schema::create('challenges', function (Blueprint $table) {
             $table->id();
+            $table->string('title'); // Title of the challenge
+            $table->text('description')->nullable(); // Detailed description
+            $table->date('start_date')->nullable(); // Start date of the challenge
+            $table->date('end_date')->nullable(); // End date of the challenge
+            $table->boolean('is_completed')->default(false); // Completion status
+            $table->integer('progress')->default(0); // Progress percentage
             $table->timestamps();
         });
     }

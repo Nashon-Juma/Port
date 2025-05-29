@@ -13,7 +13,15 @@ return new class extends Migration
     {
         Schema::create('recurring_payments', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->string('name'); // Name of the payment or subscription
+            $table->decimal('amount', 10, 2); // Payment amount
+            $table->string('currency', 3); // Currency code (e.g., USD, EUR)
+            $table->date('start_date'); // Start date of the recurring payment
+            $table->date('end_date')->nullable(); // Optional end date
+            $table->enum('frequency', ['daily', 'weekly', 'monthly', 'yearly']); // Payment frequency
+            $table->text('description')->nullable(); // Optional description
+            $table->boolean('is_active')->default(true); // Status of the recurring payment
+            $table->timestamps(); // Created at and updated at timestamps
         });
     }
 

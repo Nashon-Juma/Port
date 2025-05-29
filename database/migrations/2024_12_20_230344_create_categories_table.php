@@ -14,6 +14,9 @@ return new class extends Migration
         Schema::create('categories', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+            $table->text('description')->nullable(); // Optional description of the category
+            $table->string('color')->nullable(); // Optional color for UI representation
+            $table->boolean('is_active')->default(true); // To track if the category is active
             $table->timestamps();
         });
     }

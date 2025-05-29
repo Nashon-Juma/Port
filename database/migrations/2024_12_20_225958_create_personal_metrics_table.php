@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('personal_metrics', function (Blueprint $table) {
             $table->id();
+            $table->string('metric_name'); // Name of the metric
+            $table->text('description')->nullable(); // Description of the metric
+            $table->float('value')->nullable(); // Value of the metric
+            $table->string('unit')->nullable(); // Unit of measurement (e.g., kg, hours)
+            $table->date('recorded_at'); // Date when the metric was recorded
             $table->timestamps();
         });
     }

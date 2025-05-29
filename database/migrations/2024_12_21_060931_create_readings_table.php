@@ -13,6 +13,12 @@ return new class extends Migration
     {
         Schema::create('readings', function (Blueprint $table) {
             $table->id();
+            $table->string('title'); // Title of the book
+            $table->string('author')->nullable(); // Author of the book
+            $table->date('start_date')->nullable(); // Date when reading started
+            $table->date('end_date')->nullable(); // Date when reading ended
+            $table->integer('rating')->nullable(); // Rating given to the book
+            $table->boolean('is_favorite')->default(false); // Mark as favorite
             $table->timestamps();
         });
     }

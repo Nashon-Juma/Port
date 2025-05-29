@@ -18,6 +18,11 @@ return new class extends Migration
             $table->string('field_of_study');
             $table->date('start_date');
             $table->date('end_date')->nullable();
+            $table->text('description')->nullable(); // Additional details about the education
+            $table->string('location')->nullable(); // Location of the institution
+            $table->string('grade')->nullable(); // Grade or GPA
+            $table->string('website')->nullable(); // Institution's website
+            $table->boolean('currently_enrolled')->default(false); // Whether the user is currently enrolled
             $table->timestamps();
         });
     }

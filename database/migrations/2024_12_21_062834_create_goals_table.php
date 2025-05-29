@@ -16,9 +16,13 @@ return new class extends Migration
             $table->string('title');
             $table->text('description')->nullable();
             $table->dateTime('target_date');
+            $table->boolean('is_completed')->default(false);
+            $table->string('category')->nullable();
+            $table->integer('priority')->default(1); // 1 = Low, 2 = Medium, 3 = High
+            $table->string('progress_status')->default('Not Started'); // e.g., Not Started, In Progress, Completed
+            $table->text('notes')->nullable();
             $table->timestamps();
         });
-
     }
 
     /**

@@ -17,6 +17,12 @@ return new class extends Migration
             $table->text('description')->nullable();
             $table->string('url')->nullable();
             $table->string('image')->nullable();
+            $table->string('category')->nullable(); // To categorize projects
+            $table->date('start_date')->nullable(); // To track when the project started
+            $table->date('end_date')->nullable(); // To track when the project ended
+            $table->boolean('is_active')->default(true); // To indicate if the project is ongoing
+            $table->integer('priority')->default(0); // To prioritize projects
+            $table->text('technologies')->nullable(); // To list technologies used
             $table->timestamps();
         });
     }

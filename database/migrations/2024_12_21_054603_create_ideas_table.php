@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('ideas', function (Blueprint $table) {
             $table->id();
+            $table->string('title');
+            $table->text('description')->nullable();
+            $table->string('status')->default('pending'); // e.g., pending, in-progress, completed
+            $table->string('category')->nullable();
+            $table->timestamp('due_date')->nullable();
             $table->timestamps();
         });
     }
