@@ -575,8 +575,8 @@
                                     <div class="research__info">
                                         <h4 class="research__title"
                                             style="margin: 0; color: #fff; text-decoration: none;">
-                                            <a href="https://hubofteens.shop/" target="_blank" class="research-link">
-                                                Hub of Teens
+                                            <a href="https://dashi.co.ke/" target="_blank" class="research-link">
+                                                Dashi
                                                 <i class="fas fa-external-link-alt"
                                                     style="margin-left: 5px; color: #b5b5b5;"></i>
                                             </a>
